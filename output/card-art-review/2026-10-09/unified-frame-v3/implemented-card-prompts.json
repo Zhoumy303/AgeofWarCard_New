@@ -1,0 +1,92 @@
+[
+  {
+    "key": "shadow-lord-corrected",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-4f8e0336-89a2-4d0b-b6b7-8d3d398b2585.png",
+    "editSource": "lib/img/cards-en/shadow-lord.png",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/cards-en/shadow-lord.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit ONLY the four corner numerals of this existing Shadow Lord card. Preserve the exact existing brown frame, corner panel geometry, illustration, armored character identity, pose, colors, pink magic, background, and ALL existing English ability text exactly as in the source. Keep this an identical portrait card with only the four digits changed. Replace top-left 4 with 3; replace top-right 2 with 1; replace bottom-left 2 with 6; replace bottom-right 2 with 4. These are the ONLY four numeric corner values: top-left \"3\", top-right \"1\", bottom-left \"6\", bottom-right \"4\". Use the exact same tan-gold decorative outlined serif numeral design and positioning as the old numerals. No other changes, no extra text, no new decorations, all four corners visible.",
+    "face": "lib/img/cards-en/shadow-lord-corrected.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/shadow-lord-corrected.png"
+  },
+  {
+    "key": "healing-kit",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-2ed2dfa8-5431-4fbe-ac38-13b10d19f8a4.png",
+    "editSource": "lib/img/spells/医疗包.webp",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/spells/医疗包.webp",
+      "D:/工作文件/课程/周墨逸/图片/1.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit Image 1, the existing card artwork. Image 2 is ONLY the required BORDER AND NUMERAL STYLE reference. Preserve Image 1's central subject, identity, silhouettes, illustration style, palette, motifs and magic effects. Replace its outer perimeter frame with the simple chocolate-brown frame of Image 2, matching geometry, relative widths, four large square corner panels, bronze inset beveled edges, narrow inner rectangular rim and small inward angular notch halfway along each vertical side. No original outside border should remain beyond the new frame. Retain decorative details only when they belong to the central illustration. Match the 1000:1546 portrait card aspect ratio of Image 2; fit existing art inside without distorting its subjects. Render a single full flat card filling the canvas with all four corners visible. No title, no ability description, no stat labels, no new decorative border ornaments, no watermark. The numeral style must match Image 2: large pale tan-gold decorative outlined serif centered in corner panel. Do not copy Image 2's values. This is a spell card. Put only the single cost numeral \"1\" in the TOP-LEFT corner panel. Top-right, bottom-left and bottom-right panels must be entirely blank brown, no numbers or icons. Preserve the central spell artwork and remove any stray tiny gibberish text from the old artwork. No other text.",
+    "face": "lib/img/cards-en/healing-kit.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/healing-kit.png"
+  },
+  {
+    "key": "shield",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-f7435874-b5cd-4cdd-85cc-960fcba0773f.png",
+    "editSource": "lib/img/spells/护盾卡.webp",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/spells/护盾卡.webp",
+      "D:/工作文件/课程/周墨逸/图片/1.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit Image 1, the existing card artwork. Image 2 is ONLY the required BORDER AND NUMERAL STYLE reference. Preserve Image 1's central subject, identity, silhouettes, illustration style, palette, motifs and magic effects. Replace its outer perimeter frame with the simple chocolate-brown frame of Image 2, matching geometry, relative widths, four large square corner panels, bronze inset beveled edges, narrow inner rectangular rim and small inward angular notch halfway along each vertical side. No original outside border should remain beyond the new frame. Retain decorative details only when they belong to the central illustration. Match the 1000:1546 portrait card aspect ratio of Image 2; fit existing art inside without distorting its subjects. Render a single full flat card filling the canvas with all four corners visible. No title, no ability description, no stat labels, no new decorative border ornaments, no watermark. The numeral style must match Image 2: large pale tan-gold decorative outlined serif centered in corner panel. Do not copy Image 2's values. This is a spell card. Put only the single cost numeral \"2\" in the TOP-LEFT corner panel. Top-right, bottom-left and bottom-right panels must be entirely blank brown, no numbers or icons. Preserve the central spell artwork and remove any stray tiny gibberish text from the old artwork. No other text.",
+    "face": "lib/img/cards-en/shield.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/shield.png"
+  },
+  {
+    "key": "reinforcements",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-012aa2d0-7391-4f84-88d1-174c7070a0c8.png",
+    "editSource": "lib/img/spells/抽卡牌.webp",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/spells/抽卡牌.webp",
+      "D:/工作文件/课程/周墨逸/图片/1.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit Image 1, the existing card artwork. Image 2 is ONLY the required BORDER AND NUMERAL STYLE reference. Preserve Image 1's central subject, identity, silhouettes, illustration style, palette, motifs and magic effects. Replace its outer perimeter frame with the simple chocolate-brown frame of Image 2, matching geometry, relative widths, four large square corner panels, bronze inset beveled edges, narrow inner rectangular rim and small inward angular notch halfway along each vertical side. No original outside border should remain beyond the new frame. Retain decorative details only when they belong to the central illustration. Match the 1000:1546 portrait card aspect ratio of Image 2; fit existing art inside without distorting its subjects. Render a single full flat card filling the canvas with all four corners visible. No title, no ability description, no stat labels, no new decorative border ornaments, no watermark. The numeral style must match Image 2: large pale tan-gold decorative outlined serif centered in corner panel. Do not copy Image 2's values. This is a spell card. Put only the single cost numeral \"2\" in the TOP-LEFT corner panel. Top-right, bottom-left and bottom-right panels must be entirely blank brown, no numbers or icons. Preserve the central spell artwork and remove any stray tiny gibberish text from the old artwork. No other text.",
+    "face": "lib/img/cards-en/reinforcements.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/reinforcements.png"
+  },
+  {
+    "key": "recall",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-ff3038f6-f59d-4fda-890b-1aab29f30718.png",
+    "editSource": "lib/img/spells/重置卡.webp",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/spells/重置卡.webp",
+      "D:/工作文件/课程/周墨逸/图片/1.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit Image 1, the existing card artwork. Image 2 is ONLY the required BORDER AND NUMERAL STYLE reference. Preserve Image 1's central subject, identity, silhouettes, illustration style, palette, motifs and magic effects. Replace its outer perimeter frame with the simple chocolate-brown frame of Image 2, matching geometry, relative widths, four large square corner panels, bronze inset beveled edges, narrow inner rectangular rim and small inward angular notch halfway along each vertical side. No original outside border should remain beyond the new frame. Retain decorative details only when they belong to the central illustration. Match the 1000:1546 portrait card aspect ratio of Image 2; fit existing art inside without distorting its subjects. Render a single full flat card filling the canvas with all four corners visible. No title, no ability description, no stat labels, no new decorative border ornaments, no watermark. The numeral style must match Image 2: large pale tan-gold decorative outlined serif centered in corner panel. Do not copy Image 2's values. This is a spell card. Put only the single cost numeral \"1\" in the TOP-LEFT corner panel. Top-right, bottom-left and bottom-right panels must be entirely blank brown, no numbers or icons. Preserve the central spell artwork and remove any stray tiny gibberish text from the old artwork. No other text.",
+    "face": "lib/img/cards-en/recall.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/recall.png"
+  },
+  {
+    "key": "time-hourglass",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-7e8208aa-9899-44aa-8219-70d26f03f5f4.png",
+    "editSource": "lib/img/items/sand.webp",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/items/sand.webp",
+      "D:/工作文件/课程/周墨逸/图片/1.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit Image 1, the existing card artwork. Image 2 is ONLY the required BORDER AND NUMERAL STYLE reference. Preserve Image 1's central subject, identity, silhouettes, illustration style, palette, motifs and magic effects. Replace its outer perimeter frame with the simple chocolate-brown frame of Image 2, matching geometry, relative widths, four large square corner panels, bronze inset beveled edges, narrow inner rectangular rim and small inward angular notch halfway along each vertical side. No original outside border should remain beyond the new frame. Retain decorative details only when they belong to the central illustration. Match the 1000:1546 portrait card aspect ratio of Image 2; fit existing art inside without distorting its subjects. Render a single full flat card filling the canvas with all four corners visible. No title, no ability description, no stat labels, no new decorative border ornaments, no watermark. The numeral style must match Image 2: large pale tan-gold decorative outlined serif centered in corner panel. Do not copy Image 2's values. This is an item card with NO numeric stats. ALL FOUR square corner panels must be plain blank brown with NO numerals or labels. Do not invent a cost. Preserve the main item artwork.",
+    "face": "lib/img/cards-en/time-hourglass.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/time-hourglass.png"
+  },
+  {
+    "key": "lucky-coin",
+    "mode": "built-in imagegen",
+    "source": "C:\\Users\\Dr.m\\.codex\\generated_images\\01a0fc08-b8e8-71a0-a86b-4a7a3c9612c2\\exec-42ab52f9-c68c-4085-8256-e45cf0ef5e27.png",
+    "editSource": "lib/img/items/coin.webp",
+    "referenceImages": [
+      "D:/工作文件/课程/周墨逸/AgeofWarCard/lib/img/items/coin.webp",
+      "D:/工作文件/课程/周墨逸/图片/1.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit Image 1, the existing card artwork. Image 2 is ONLY the required BORDER AND NUMERAL STYLE reference. Preserve Image 1's central subject, identity, silhouettes, illustration style, palette, motifs and magic effects. Replace its outer perimeter frame with the simple chocolate-brown frame of Image 2, matching geometry, relative widths, four large square corner panels, bronze inset beveled edges, narrow inner rectangular rim and small inward angular notch halfway along each vertical side. No original outside border should remain beyond the new frame. Retain decorative details only when they belong to the central illustration. Match the 1000:1546 portrait card aspect ratio of Image 2; fit existing art inside without distorting its subjects. Render a single full flat card filling the canvas with all four corners visible. No title, no ability description, no stat labels, no new decorative border ornaments, no watermark. The numeral style must match Image 2: large pale tan-gold decorative outlined serif centered in corner panel. Do not copy Image 2's values. This is an item card with NO numeric stats. ALL FOUR square corner panels must be plain blank brown with NO numerals or labels. Do not invent a cost. Preserve the main item artwork.",
+    "face": "lib/img/cards-en/lucky-coin.png",
+    "review": "output/card-art-review/2026-10-09/unified-frame-v3/lucky-coin.png"
+  }
+]

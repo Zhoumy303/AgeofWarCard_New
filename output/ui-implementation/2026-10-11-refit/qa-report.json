@@ -1,0 +1,3007 @@
+{
+  "checks": [
+    {
+      "name": "Chinese originals remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "initial menu and disabled continue",
+      "passed": true
+    },
+    {
+      "name": "draw spends AP and adds one card",
+      "passed": true
+    },
+    {
+      "name": "hand uses pure art and details use full face",
+      "passed": true
+    },
+    {
+      "name": "full card viewer opens and Escape closes it",
+      "passed": true
+    },
+    {
+      "name": "all card details preserve artwork size and readable sections",
+      "passed": true
+    },
+    {
+      "name": "resizing fits the battle canvas without changing the match",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "attack layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 1920x1080",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 1920x1080",
+      "passed": true
+    },
+    {
+      "name": "attack layout 1920x1080",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 2559x1423",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 2559x1423",
+      "passed": true
+    },
+    {
+      "name": "attack layout 2559x1423",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 1280x800",
+      "passed": true
+    },
+    {
+      "name": "attack layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 390x844",
+      "passed": true
+    },
+    {
+      "name": "attack layout 390x844",
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "name": "03-deploy-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 58,
+          "y": 186,
+          "width": 1157,
+          "height": 544,
+          "bottom": 730
+        },
+        {
+          "id": "selection-panel",
+          "x": 1265,
+          "y": 110,
+          "width": 285,
+          "height": 668,
+          "bottom": 778
+        },
+        {
+          "id": "hand-section",
+          "x": 52,
+          "y": 788,
+          "width": 1188,
+          "height": 197,
+          "bottom": 985
+        },
+        {
+          "id": "action-area",
+          "x": 1265,
+          "y": 795,
+          "width": 285,
+          "height": 110.5,
+          "bottom": 905.5
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 8,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement",
+      "reference": {
+        "scale": 1,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1600,
+          "height": 1000
+        },
+        "board": {
+          "x": 58,
+          "y": 186,
+          "width": 1157,
+          "height": 544
+        },
+        "rail": {
+          "x": 1265,
+          "y": 110,
+          "width": 285,
+          "height": 668
+        },
+        "unit": {
+          "x": 417.78125,
+          "y": 314.09375,
+          "width": 116,
+          "height": 83
+        },
+        "button": {
+          "x": 1265,
+          "y": 795,
+          "width": 285,
+          "height": 68
+        },
+        "card": {
+          "x": 175.14122009277344,
+          "y": 804.53271484375,
+          "width": 145.71754455566406,
+          "height": 181.9345703125
+        },
+        "face": {
+          "x": 1324,
+          "y": 199.1875,
+          "width": 167,
+          "height": 258
+        },
+        "notice": {
+          "bounds": null,
+          "text": ""
+        },
+        "statGaps": [
+          [
+            31.741165161132812,
+            31.741180419921875
+          ],
+          [
+            32.09375,
+            32.09375
+          ],
+          [
+            32.09375,
+            32.09375
+          ],
+          [
+            32.09375,
+            32.09375
+          ],
+          [
+            78.0906982421875
+          ],
+          [
+            31.55963134765625,
+            31.55963134765625
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 167,
+            "height": 258
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 142.4405059814453,
+            "height": 120.906005859375
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 140,
+            "height": 118
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 140,
+            "height": 118
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 140,
+            "height": 118
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 142.0380859375,
+            "height": 120.42535400390625
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 143.637451171875,
+            "height": 122.33929443359375
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "04-attack-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 58,
+          "y": 186,
+          "width": 1157,
+          "height": 544,
+          "bottom": 730
+        },
+        {
+          "id": "selection-panel",
+          "x": 1265,
+          "y": 110,
+          "width": 285,
+          "height": 668,
+          "bottom": 778
+        },
+        {
+          "id": "hand-section",
+          "x": 52,
+          "y": 788,
+          "width": 1188,
+          "height": 197,
+          "bottom": 985
+        },
+        {
+          "id": "action-area",
+          "x": 1265,
+          "y": 795,
+          "width": 285,
+          "height": 96.1875,
+          "bottom": 891.1875
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 0,
+      "phase": "battle",
+      "reference": {
+        "scale": 1,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1600,
+          "height": 1000
+        },
+        "board": {
+          "x": 58,
+          "y": 186,
+          "width": 1157,
+          "height": 544
+        },
+        "rail": {
+          "x": 1265,
+          "y": 110,
+          "width": 285,
+          "height": 668
+        },
+        "unit": {
+          "x": 417.78125,
+          "y": 314.09375,
+          "width": 116,
+          "height": 83
+        },
+        "button": {
+          "x": 1265,
+          "y": 795,
+          "width": 285,
+          "height": 68
+        },
+        "card": {
+          "x": 175.14122009277344,
+          "y": 804.53271484375,
+          "width": 145.71754455566406,
+          "height": 181.9345703125
+        },
+        "face": {
+          "x": 1338.5,
+          "y": 199.1875,
+          "width": 138,
+          "height": 213
+        },
+        "notice": {
+          "bounds": {
+            "x": 1265,
+            "y": 872,
+            "width": 285,
+            "height": 19.1875
+          },
+          "text": "Finish your actions before passing."
+        },
+        "statGaps": [
+          [
+            31.741165161132812,
+            31.741180419921875
+          ],
+          [
+            32.09375,
+            32.09375
+          ],
+          [
+            32.09375,
+            32.09375
+          ],
+          [
+            32.09375,
+            32.09375
+          ],
+          [
+            78.0906982421875
+          ],
+          [
+            31.55963134765625,
+            31.55963134765625
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 112,
+            "height": 56
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 138,
+            "height": 213
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 142.4405059814453,
+            "height": 120.906005859375
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 140,
+            "height": 118
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 140,
+            "height": 118
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 140,
+            "height": 118
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 142.0380859375,
+            "height": 120.42535400390625
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 143.637451171875,
+            "height": 122.33929443359375
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "03-deploy-1920x1080",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "document": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 158.63999938964844,
+          "y": 200.8800048828125,
+          "width": 1249.56005859375,
+          "height": 587.52001953125,
+          "bottom": 788.4000244140625
+        },
+        {
+          "id": "selection-panel",
+          "x": 1462.2000732421875,
+          "y": 118.80000305175781,
+          "width": 307.800048828125,
+          "height": 721.4400634765625,
+          "bottom": 840.2400665283203
+        },
+        {
+          "id": "hand-section",
+          "x": 152.16000366210938,
+          "y": 851.0400390625,
+          "width": 1283.0400390625,
+          "height": 212.760009765625,
+          "bottom": 1063.800048828125
+        },
+        {
+          "id": "action-area",
+          "x": 1462.2000732421875,
+          "y": 858.6000366210938,
+          "width": 307.800048828125,
+          "height": 119.34002685546875,
+          "bottom": 977.9400634765625
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 8,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement",
+      "reference": {
+        "scale": 1.0800000762939452,
+        "stage": {
+          "x": 96,
+          "y": 0,
+          "width": 1728.0001220703125,
+          "height": 1080
+        },
+        "board": {
+          "x": 57.999995337592566,
+          "y": 185.9999913816105,
+          "width": 1156.9999725200532,
+          "height": 543.9999796549494
+        },
+        "rail": {
+          "x": 1264.9999784540264,
+          "y": 109.99999505502242,
+          "width": 285.00002507810063,
+          "height": 668.0000115853761
+        },
+        "unit": {
+          "x": 417.7812069235055,
+          "y": 314.09373007218187,
+          "width": 116.00001893219992,
+          "height": 83.00000770003653
+        },
+        "button": {
+          "x": 1264.9999784540264,
+          "y": 794.999977747601,
+          "width": 285.00002507810063,
+          "height": 67.99999745686867
+        },
+        "card": {
+          "x": 175.14121619745777,
+          "y": 804.532707741864,
+          "width": 145.71752578470262,
+          "height": 181.9345981502817
+        },
+        "face": {
+          "x": 1323.9999471593824,
+          "y": 199.18749779683588,
+          "width": 166.99997463932925,
+          "height": 257.99999533759257
+        },
+        "notice": {
+          "bounds": null,
+          "text": ""
+        },
+        "statGaps": [
+          [
+            31.741161223435494,
+            31.741161223435494
+          ],
+          [
+            32.09375225393845,
+            32.09375225393845
+          ],
+          [
+            32.09375225393845,
+            32.093695739908874
+          ],
+          [
+            32.09375225393845,
+            32.09375225393845
+          ],
+          [
+            78.09069046510129
+          ],
+          [
+            31.55969467447813,
+            31.55969467447813
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 120.96002197265625,
+            "height": 60.480010986328125
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 120.9599609375,
+            "height": 60.480010986328125
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 180.3599853515625,
+            "height": 278.6400146484375
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 153.83578491210938,
+            "height": 130.5784912109375
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 151.20004272460938,
+            "height": 127.44000244140625
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 151.20001220703125,
+            "height": 127.44000244140625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 151.20001220703125,
+            "height": 127.44000244140625
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 153.40118408203125,
+            "height": 130.05938720703125
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 155.12841796875,
+            "height": 132.12646484375
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "04-attack-1920x1080",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "document": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 158.63999938964844,
+          "y": 200.8800048828125,
+          "width": 1249.56005859375,
+          "height": 587.52001953125,
+          "bottom": 788.4000244140625
+        },
+        {
+          "id": "selection-panel",
+          "x": 1462.2000732421875,
+          "y": 118.80000305175781,
+          "width": 307.800048828125,
+          "height": 721.4400634765625,
+          "bottom": 840.2400665283203
+        },
+        {
+          "id": "hand-section",
+          "x": 152.16000366210938,
+          "y": 851.0400390625,
+          "width": 1283.0400390625,
+          "height": 212.760009765625,
+          "bottom": 1063.800048828125
+        },
+        {
+          "id": "action-area",
+          "x": 1462.2000732421875,
+          "y": 858.6000366210938,
+          "width": 307.800048828125,
+          "height": 103.88250732421875,
+          "bottom": 962.4825439453125
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 0,
+      "phase": "battle",
+      "reference": {
+        "scale": 1.0800000762939452,
+        "stage": {
+          "x": 96,
+          "y": 0,
+          "width": 1728.0001220703125,
+          "height": 1080
+        },
+        "board": {
+          "x": 57.999995337592566,
+          "y": 185.9999913816105,
+          "width": 1156.9999725200532,
+          "height": 543.9999796549494
+        },
+        "rail": {
+          "x": 1264.9999784540264,
+          "y": 109.99999505502242,
+          "width": 285.00002507810063,
+          "height": 668.0000115853761
+        },
+        "unit": {
+          "x": 417.7812069235055,
+          "y": 314.09373007218187,
+          "width": 116.00001893219992,
+          "height": 83.00000770003653
+        },
+        "button": {
+          "x": 1264.9999784540264,
+          "y": 794.999977747601,
+          "width": 285.00002507810063,
+          "height": 67.99999745686867
+        },
+        "card": {
+          "x": 175.14121619745777,
+          "y": 804.532707741864,
+          "width": 145.71752578470262,
+          "height": 181.9345981502817
+        },
+        "face": {
+          "x": 1338.4999777829223,
+          "y": 199.18749779683588,
+          "width": 138.00002642030884,
+          "height": 212.99997873659638
+        },
+        "notice": {
+          "bounds": {
+            "x": 1264.9999784540264,
+            "y": 871.9999474419526,
+            "width": 285.00002507810063,
+            "height": 19.187530292402883
+          },
+          "text": "Finish your actions before passing."
+        },
+        "statGaps": [
+          [
+            31.741161223435494,
+            31.741161223435494
+          ],
+          [
+            32.09375225393845,
+            32.09375225393845
+          ],
+          [
+            32.09375225393845,
+            32.093695739908874
+          ],
+          [
+            32.09375225393845,
+            32.09375225393845
+          ],
+          [
+            78.09069046510129
+          ],
+          [
+            31.55969467447813,
+            31.55969467447813
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 120.96002197265625,
+            "height": 60.480010986328125
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 120.9599609375,
+            "height": 60.480010986328125
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 120.96002197265625,
+            "height": 60.47998046875
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 149.0400390625,
+            "height": 230.0399932861328
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 153.83578491210938,
+            "height": 130.5784912109375
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 151.20004272460938,
+            "height": 127.44000244140625
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 151.20001220703125,
+            "height": 127.44000244140625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 151.20001220703125,
+            "height": 127.44000244140625
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 153.40118408203125,
+            "height": 130.05938720703125
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 155.12841796875,
+            "height": 132.12646484375
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "03-deploy-2559x1423",
+      "viewport": {
+        "width": 2559,
+        "height": 1423
+      },
+      "document": {
+        "width": 2559,
+        "height": 1423
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 223.63400268554688,
+          "y": 264.6780090332031,
+          "width": 1646.410888671875,
+          "height": 774.112060546875,
+          "bottom": 1038.7900695800781
+        },
+        {
+          "id": "selection-panel",
+          "x": 1941.1949462890625,
+          "y": 156.52999877929688,
+          "width": 405.5550537109375,
+          "height": 950.56396484375,
+          "bottom": 1107.0939636230469
+        },
+        {
+          "id": "hand-section",
+          "x": 215.09600830078125,
+          "y": 1121.323974609375,
+          "width": 1690.52392578125,
+          "height": 280.3310546875,
+          "bottom": 1401.655029296875
+        },
+        {
+          "id": "action-area",
+          "x": 1941.1949462890625,
+          "y": 1131.2850341796875,
+          "width": 405.5550537109375,
+          "height": 157.241455078125,
+          "bottom": 1288.5264892578125
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 8,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement",
+      "reference": {
+        "scale": 1.423000030517578,
+        "stage": {
+          "x": 141.10000610351562,
+          "y": 0,
+          "width": 2276.800048828125,
+          "height": 1423
+        },
+        "board": {
+          "x": 57.999996354189626,
+          "y": 186.00000235905378,
+          "width": 1156.999896952242,
+          "height": 544.0000308821585
+        },
+        "rail": {
+          "x": 1264.9999308368326,
+          "y": 109.9999967831085,
+          "width": 285.00003163276654,
+          "height": 667.999960968383
+        },
+        "unit": {
+          "x": 417.78119626115716,
+          "y": 314.09374858255717,
+          "width": 115.99999270837925,
+          "height": 82.99998295047499
+        },
+        "button": {
+          "x": 1264.9999308368326,
+          "y": 795.0000069699316,
+          "width": 285.00003163276654,
+          "height": 67.99993952243959
+        },
+        "card": {
+          "x": 175.14121349511726,
+          "y": 804.532643031307,
+          "width": 145.71752926004098,
+          "height": 181.93460209679134
+        },
+        "face": {
+          "x": 1323.9999515321679,
+          "y": 199.18749898801954,
+          "width": 166.99999024209575,
+          "height": 257.99999635418965
+        },
+        "notice": {
+          "bounds": null,
+          "text": ""
+        },
+        "statGaps": [
+          [
+            31.74115432575938,
+            31.741175771702785
+          ],
+          [
+            32.09376852728455,
+            32.09368274351092
+          ],
+          [
+            32.09376852728455,
+            32.09368274351092
+          ],
+          [
+            32.09376852728455,
+            32.09368274351092
+          ],
+          [
+            78.09068481508181
+          ],
+          [
+            31.559678752635307,
+            31.559678752635307
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 159.37600708007812,
+            "height": 79.68804931640625
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 159.3759765625,
+            "height": 79.68804931640625
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 159.3759765625,
+            "height": 79.68804931640625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 237.6409912109375,
+            "height": 367.1340026855469
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 202.69287109375,
+            "height": 172.0491943359375
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 199.219970703125,
+            "height": 167.9139404296875
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 199.219970703125,
+            "height": 167.9140625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 199.219970703125,
+            "height": 167.9140625
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 202.1201171875,
+            "height": 171.365234375
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 204.3961181640625,
+            "height": 174.0887451171875
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "04-attack-2559x1423",
+      "viewport": {
+        "width": 2559,
+        "height": 1423
+      },
+      "document": {
+        "width": 2559,
+        "height": 1423
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 223.63400268554688,
+          "y": 264.6780090332031,
+          "width": 1646.410888671875,
+          "height": 774.112060546875,
+          "bottom": 1038.7900695800781
+        },
+        {
+          "id": "selection-panel",
+          "x": 1941.1949462890625,
+          "y": 156.52999877929688,
+          "width": 405.5550537109375,
+          "height": 950.56396484375,
+          "bottom": 1107.0939636230469
+        },
+        {
+          "id": "hand-section",
+          "x": 215.09600830078125,
+          "y": 1121.323974609375,
+          "width": 1690.52392578125,
+          "height": 280.3310546875,
+          "bottom": 1401.655029296875
+        },
+        {
+          "id": "action-area",
+          "x": 1941.1949462890625,
+          "y": 1131.2850341796875,
+          "width": 405.5550537109375,
+          "height": 136.874755859375,
+          "bottom": 1268.1597900390625
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 0,
+      "phase": "battle",
+      "reference": {
+        "scale": 1.423000030517578,
+        "stage": {
+          "x": 141.10000610351562,
+          "y": 0,
+          "width": 2276.800048828125,
+          "height": 1423
+        },
+        "board": {
+          "x": 57.999996354189626,
+          "y": 186.00000235905378,
+          "width": 1156.999896952242,
+          "height": 544.0000308821585
+        },
+        "rail": {
+          "x": 1264.9999308368326,
+          "y": 109.9999967831085,
+          "width": 285.00003163276654,
+          "height": 667.999960968383
+        },
+        "unit": {
+          "x": 417.78119626115716,
+          "y": 314.09374858255717,
+          "width": 115.99999270837925,
+          "height": 82.99998295047499
+        },
+        "button": {
+          "x": 1264.9999308368326,
+          "y": 795.0000069699316,
+          "width": 285.00003163276654,
+          "height": 67.99993952243959
+        },
+        "card": {
+          "x": 175.14121349511726,
+          "y": 804.532643031307,
+          "width": 145.71752926004098,
+          "height": 181.93460209679134
+        },
+        "face": {
+          "x": 1338.4998970058568,
+          "y": 199.18749898801954,
+          "width": 138.00018507849163,
+          "height": 212.99997329980047
+        },
+        "notice": {
+          "bounds": {
+            "x": 1264.9999308368326,
+            "y": 871.999951103249,
+            "width": 285.00003163276654,
+            "height": 19.18751400017993
+          },
+          "text": "Finish your actions before passing."
+        },
+        "statGaps": [
+          [
+            31.74115432575938,
+            31.741175771702785
+          ],
+          [
+            32.09376852728455,
+            32.09368274351092
+          ],
+          [
+            32.09376852728455,
+            32.09368274351092
+          ],
+          [
+            32.09376852728455,
+            32.09368274351092
+          ],
+          [
+            78.09068481508181
+          ],
+          [
+            31.559678752635307,
+            31.559678752635307
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 159.37600708007812,
+            "height": 79.68804931640625
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 159.3759765625,
+            "height": 79.68804931640625
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 159.3759765625,
+            "height": 79.68804931640625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 159.3759765625,
+            "height": 79.68798828125
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 196.374267578125,
+            "height": 303.0989685058594
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 202.69287109375,
+            "height": 172.0491943359375
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 199.219970703125,
+            "height": 167.9140625
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 199.219970703125,
+            "height": 167.9140625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 199.219970703125,
+            "height": 167.9140625
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 202.1201171875,
+            "height": 171.365234375
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 204.3961181640625,
+            "height": 174.0887451171875
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "03-deploy-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 800
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 46.400001525878906,
+          "y": 148.8000030517578,
+          "width": 925.5999755859375,
+          "height": 435.20001220703125,
+          "bottom": 584.0000152587891
+        },
+        {
+          "id": "selection-panel",
+          "x": 1012,
+          "y": 88,
+          "width": 228,
+          "height": 534.4000244140625,
+          "bottom": 622.4000244140625
+        },
+        {
+          "id": "hand-section",
+          "x": 41.60000228881836,
+          "y": 630.4000244140625,
+          "width": 950.4000244140625,
+          "height": 157.5999755859375,
+          "bottom": 788
+        },
+        {
+          "id": "action-area",
+          "x": 1012,
+          "y": 636,
+          "width": 228,
+          "height": 88.4000244140625,
+          "bottom": 724.4000244140625
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 8,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement",
+      "reference": {
+        "scale": 0.8,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "board": {
+          "x": 58.00000190734863,
+          "y": 186.00000381469727,
+          "width": 1156.9999694824219,
+          "height": 544.0000152587891
+        },
+        "rail": {
+          "x": 1265,
+          "y": 110,
+          "width": 285,
+          "height": 668.0000305175781
+        },
+        "unit": {
+          "x": 417.78125762939453,
+          "y": 314.0937614440918,
+          "width": 115.99998474121094,
+          "height": 83.0000114440918
+        },
+        "button": {
+          "x": 1265,
+          "y": 795,
+          "width": 285,
+          "height": 68.00003051757812
+        },
+        "card": {
+          "x": 175.14122009277344,
+          "y": 804.5326995849609,
+          "width": 145.71754455566406,
+          "height": 181.93458557128906
+        },
+        "face": {
+          "x": 1324.0000915527344,
+          "y": 199.18750762939453,
+          "width": 166.99996948242188,
+          "height": 257.99999237060547
+        },
+        "notice": {
+          "bounds": null,
+          "text": ""
+        },
+        "statGaps": [
+          [
+            31.741161346435547,
+            31.741180419921875
+          ],
+          [
+            32.093772888183594,
+            32.093772888183594
+          ],
+          [
+            32.09373474121094,
+            32.09373474121094
+          ],
+          [
+            32.09373474121094,
+            32.09373474121094
+          ],
+          [
+            78.09074401855469
+          ],
+          [
+            31.559677124023438,
+            31.559600830078125
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 89.60000610351562,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 89.5999755859375,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 89.60000610351562,
+            "height": 44.79998779296875
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 89.5999755859375,
+            "height": 44.79998779296875
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 89.5999755859375,
+            "height": 44.79998779296875
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 89.60000610351562,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 89.5999755859375,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 133.5999755859375,
+            "height": 206.39999389648438
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 113.95240783691406,
+            "height": 96.72479248046875
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 112,
+            "height": 94.4000244140625
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 112,
+            "height": 94.39996337890625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 112.00003051757812,
+            "height": 94.39996337890625
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 113.6304931640625,
+            "height": 96.34027099609375
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 114.90997314453125,
+            "height": 97.8714599609375
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "04-attack-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 800
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 46.400001525878906,
+          "y": 148.8000030517578,
+          "width": 925.5999755859375,
+          "height": 435.20001220703125,
+          "bottom": 584.0000152587891
+        },
+        {
+          "id": "selection-panel",
+          "x": 1012,
+          "y": 88,
+          "width": 228,
+          "height": 534.4000244140625,
+          "bottom": 622.4000244140625
+        },
+        {
+          "id": "hand-section",
+          "x": 41.60000228881836,
+          "y": 630.4000244140625,
+          "width": 950.4000244140625,
+          "height": 157.5999755859375,
+          "bottom": 788
+        },
+        {
+          "id": "action-area",
+          "x": 1012,
+          "y": 636,
+          "width": 228,
+          "height": 76.95001220703125,
+          "bottom": 712.9500122070312
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 0,
+      "phase": "battle",
+      "reference": {
+        "scale": 0.8,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "board": {
+          "x": 58.00000190734863,
+          "y": 186.00000381469727,
+          "width": 1156.9999694824219,
+          "height": 544.0000152587891
+        },
+        "rail": {
+          "x": 1265,
+          "y": 110,
+          "width": 285,
+          "height": 668.0000305175781
+        },
+        "unit": {
+          "x": 417.78125762939453,
+          "y": 314.0937614440918,
+          "width": 115.99998474121094,
+          "height": 83.0000114440918
+        },
+        "button": {
+          "x": 1265,
+          "y": 795,
+          "width": 285,
+          "height": 68.00003051757812
+        },
+        "card": {
+          "x": 175.14122009277344,
+          "y": 804.5326995849609,
+          "width": 145.71754455566406,
+          "height": 181.93458557128906
+        },
+        "face": {
+          "x": 1338.5000610351562,
+          "y": 199.18750762939453,
+          "width": 138.00003051757812,
+          "height": 212.99999237060547
+        },
+        "notice": {
+          "bounds": {
+            "x": 1265,
+            "y": 872.0000457763672,
+            "width": 285,
+            "height": 19.187469482421875
+          },
+          "text": "Finish your actions before passing."
+        },
+        "statGaps": [
+          [
+            31.741161346435547,
+            31.741180419921875
+          ],
+          [
+            32.093772888183594,
+            32.093772888183594
+          ],
+          [
+            32.09373474121094,
+            32.09373474121094
+          ],
+          [
+            32.09373474121094,
+            32.09373474121094
+          ],
+          [
+            78.09074401855469
+          ],
+          [
+            31.559677124023438,
+            31.559600830078125
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 89.60000610351562,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 89.5999755859375,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 89.60000610351562,
+            "height": 44.79998779296875
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 89.5999755859375,
+            "height": 44.79998779296875
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 89.5999755859375,
+            "height": 44.79998779296875
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 89.60000610351562,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 89.5999755859375,
+            "height": 44.800018310546875
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 110.4000244140625,
+            "height": 170.39999389648438
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 113.95240783691406,
+            "height": 96.72479248046875
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 112,
+            "height": 94.39996337890625
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 112,
+            "height": 94.39996337890625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 112.00003051757812,
+            "height": 94.39996337890625
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 113.6304931640625,
+            "height": 96.34027099609375
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 114.90997314453125,
+            "height": 97.8714599609375
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "03-deploy-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1447
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 12,
+          "y": 143.046875,
+          "width": 366,
+          "height": 300,
+          "bottom": 443.046875
+        },
+        {
+          "id": "selection-panel",
+          "x": 12,
+          "y": 850.046875,
+          "width": 366,
+          "height": 543.125,
+          "bottom": 1393.171875
+        },
+        {
+          "id": "hand-section",
+          "x": 12,
+          "y": 521.046875,
+          "width": 366,
+          "height": 197,
+          "bottom": 718.046875
+        },
+        {
+          "id": "action-area",
+          "x": 12,
+          "y": 728.046875,
+          "width": 366,
+          "height": 112,
+          "bottom": 840.046875
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 8,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement",
+      "reference": {
+        "scale": 0.24375,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1438.671875
+        },
+        "board": {
+          "x": 49.23076923076923,
+          "y": 586.8589743589744,
+          "width": 1501.5384615384617,
+          "height": 1230.7692307692307
+        },
+        "rail": {
+          "x": 49.23076923076923,
+          "y": 3487.371794871795,
+          "width": 1501.5384615384617,
+          "height": 2228.2051282051284
+        },
+        "unit": {
+          "x": 512.1794871794872,
+          "y": 871.5384615384615,
+          "width": 161.7948717948718,
+          "height": 190.3846153846154
+        },
+        "button": {
+          "x": 57.43589743589744,
+          "y": 3003.269230769231,
+          "width": 1485.128205128205,
+          "height": 233.84615384615384
+        },
+        "card": {
+          "x": 393.84615384615387,
+          "y": 2260.7051282051284,
+          "width": 500.5128205128205,
+          "height": 656.4102564102565
+        },
+        "face": {
+          "x": 523.0769230769231,
+          "y": 3818.653846153846,
+          "width": 553.8461538461538,
+          "height": 738.4615384615385
+        },
+        "notice": {
+          "bounds": null,
+          "text": ""
+        },
+        "statGaps": [
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            87.88461538461539,
+            87.82051282051282
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            264.8076923076923
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 37.4375,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 37.421875,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 37.421875,
+            "height": 24.390625
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 37.421875,
+            "height": 24.390625
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 37.4375,
+            "height": 24.390625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 37.4375,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 37.4375,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 135,
+            "height": 180
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 118,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 120,
+            "height": 111
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "04-attack-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1497
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 12,
+          "y": 143.046875,
+          "width": 366,
+          "height": 300,
+          "bottom": 443.046875
+        },
+        {
+          "id": "selection-panel",
+          "x": 12,
+          "y": 828.234375,
+          "width": 366,
+          "height": 615.515625,
+          "bottom": 1443.75
+        },
+        {
+          "id": "hand-section",
+          "x": 12,
+          "y": 518.046875,
+          "width": 366,
+          "height": 197,
+          "bottom": 715.046875
+        },
+        {
+          "id": "action-area",
+          "x": 12,
+          "y": 725.046875,
+          "width": 366,
+          "height": 93.1875,
+          "bottom": 818.234375
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 0,
+      "phase": "battle",
+      "reference": {
+        "scale": 0.24375,
+        "stage": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1489.25
+        },
+        "board": {
+          "x": 49.23076923076923,
+          "y": 586.8589743589744,
+          "width": 1501.5384615384617,
+          "height": 1230.7692307692307
+        },
+        "rail": {
+          "x": 49.23076923076923,
+          "y": 3397.8846153846152,
+          "width": 1501.5384615384617,
+          "height": 2525.1923076923076
+        },
+        "unit": {
+          "x": 512.1794871794872,
+          "y": 871.5384615384615,
+          "width": 161.7948717948718,
+          "height": 190.3846153846154
+        },
+        "button": {
+          "x": 57.43589743589744,
+          "y": 2990.9615384615386,
+          "width": 1485.128205128205,
+          "height": 233.84615384615384
+        },
+        "card": {
+          "x": 393.84615384615387,
+          "y": 2248.397435897436,
+          "width": 500.5128205128205,
+          "height": 656.4102564102565
+        },
+        "face": {
+          "x": 523.0769230769231,
+          "y": 3729.166666666667,
+          "width": 553.8461538461538,
+          "height": 738.4615384615385
+        },
+        "notice": {
+          "bounds": {
+            "x": 49.23076923076923,
+            "y": 3278.141025641026,
+            "width": 1501.5384615384617,
+            "height": 78.71794871794872
+          },
+          "text": "Finish your actions before passing."
+        },
+        "statGaps": [
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ],
+          [
+            264.8076923076923
+          ],
+          [
+            91.98717948717949,
+            91.92307692307692
+          ]
+        ],
+        "art": [
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 37.4375,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/units/暗影法师.webp",
+            "width": 37.421875,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 37.421875,
+            "height": 24.390625
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 35.421875,
+            "height": 22.390625
+          },
+          {
+            "src": "lib/img/units/狂暴狼.webp",
+            "width": 35.4375,
+            "height": 22.390625
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 37.4375,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/units/牛头战士.webp",
+            "width": 37.4375,
+            "height": 24.40625
+          },
+          {
+            "src": "lib/img/cards-en/swordsman.png",
+            "width": 135,
+            "height": 180
+          },
+          {
+            "src": "lib/img/units/盾兵.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/刀兵.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/弓箭手.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/暗影刺客.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/spells/医疗包.webp",
+            "width": 120,
+            "height": 111
+          },
+          {
+            "src": "lib/img/units/暗影领主.webp",
+            "width": 120,
+            "height": 111
+          }
+        ],
+        "unitClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseClipping": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "detailCards": [
+    {
+      "key": "shieldWarrior",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 698.15625,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "archer",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 676.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "swordsman",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 676.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "shadowAssassin",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 668.96875,
+        "height": 113.375,
+        "width": 243
+      },
+      "status": {
+        "top": 683.96875,
+        "bottom": 716.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "shadowMage",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 676.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "shadowLord",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 672.34375,
+        "height": 116.75,
+        "width": 243
+      },
+      "status": {
+        "top": 687.34375,
+        "bottom": 719.84375,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "wolf",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 698.15625,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "minotaur",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 687.5,
+        "height": 131.90625,
+        "width": 243
+      },
+      "status": {
+        "top": 702.5,
+        "bottom": 735,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "iceDragon",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 698.15625,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "techFatherRevenge",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 698.15625,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "beastBat",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 676.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "phaseBeast",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 668.96875,
+        "height": 113.375,
+        "width": 243
+      },
+      "status": {
+        "top": 683.96875,
+        "bottom": 716.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "lightPriest",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 698.15625,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "skeleton",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 598.96875,
+        "height": 43.375,
+        "width": 243
+      },
+      "status": {
+        "top": 613.96875,
+        "bottom": 646.46875,
+        "height": 32.5,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "healPack",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 695.96875,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "shieldCard",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 717.65625,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "drawCard",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 695.96875,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "resetCard",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 695.96875,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "frostNova",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 695.96875,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "shadowCorrosion",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 628.96875,
+        "height": 73.375,
+        "width": 243
+      },
+      "status": {
+        "top": 643.96875,
+        "bottom": 695.96875,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    },
+    {
+      "key": "necromancy",
+      "art": {
+        "top": 199.1875,
+        "bottom": 457.1875,
+        "height": 258,
+        "width": 167
+      },
+      "loaded": true,
+      "stats": {
+        "top": 472.1875,
+        "bottom": 540.59375,
+        "height": 68.40625,
+        "width": 243
+      },
+      "description": {
+        "top": 555.59375,
+        "bottom": 650.65625,
+        "height": 95.0625,
+        "width": 243
+      },
+      "status": {
+        "top": 665.65625,
+        "bottom": 717.65625,
+        "height": 52,
+        "width": 243
+      },
+      "footer": {
+        "top": 742,
+        "bottom": 760,
+        "height": 18,
+        "width": 243
+      }
+    }
+  ]
+}

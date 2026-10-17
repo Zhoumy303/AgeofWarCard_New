@@ -1,0 +1,1032 @@
+{
+  "checks": [
+    {
+      "name": "Chinese originals remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "initial menu and disabled continue",
+      "passed": true
+    },
+    {
+      "name": "draw spends AP and adds one card",
+      "passed": true
+    },
+    {
+      "name": "hand uses pure art and details use full face",
+      "passed": true
+    },
+    {
+      "name": "full card viewer opens and Escape closes it",
+      "passed": true
+    },
+    {
+      "name": "deployment highlights only empty friendly starting columns and spends cost",
+      "passed": true
+    },
+    {
+      "name": "battle phase blocks card play, exposes move and attack choices",
+      "passed": true
+    },
+    {
+      "name": "attack hover preview agrees with attack and splash outcome",
+      "passed": true
+    },
+    {
+      "name": "move spends unit action and updates board location",
+      "passed": true
+    },
+    {
+      "name": "End turn lets the computer act and returns control",
+      "passed": true
+    },
+    {
+      "name": "help opens and closes, then menu navigation works",
+      "passed": true
+    },
+    {
+      "name": "hero choice selects the correct starter deck",
+      "passed": true
+    },
+    {
+      "name": "deck and items dialog opens and closes",
+      "passed": true
+    },
+    {
+      "name": "shop purchases once with the displayed gold price",
+      "passed": true
+    },
+    {
+      "name": "Spring heals by its stated amount and advances that event",
+      "passed": true
+    },
+    {
+      "name": "Continue Adventure restores the saved event checkpoint",
+      "passed": true
+    },
+    {
+      "name": "menu layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "hero layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "adventure layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "attack layout 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "menu layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "hero layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "adventure layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 1280x800",
+      "passed": true
+    },
+    {
+      "name": "attack layout 1280x800",
+      "passed": true
+    },
+    {
+      "name": "menu layout 844x390",
+      "passed": true
+    },
+    {
+      "name": "hero layout 844x390",
+      "passed": true
+    },
+    {
+      "name": "adventure layout 844x390",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 844x390",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 844x390",
+      "passed": true
+    },
+    {
+      "name": "attack layout 844x390",
+      "passed": true
+    },
+    {
+      "name": "menu layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "hero layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "adventure layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "deploy layout 390x844",
+      "passed": true
+    },
+    {
+      "name": "attack target remains stable on hover 390x844",
+      "passed": true
+    },
+    {
+      "name": "attack layout 390x844",
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "name": "06-shop-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "adventure",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "preview-event-cards",
+          "x": 75,
+          "y": 333,
+          "width": 1450,
+          "height": 436,
+          "bottom": 769
+        },
+        {
+          "id": "preview-card-action",
+          "x": 1126,
+          "y": 832,
+          "width": 204,
+          "height": 62,
+          "bottom": 894
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "07-spring-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "adventure",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "preview-event-cards",
+          "x": 75,
+          "y": 333,
+          "width": 1450,
+          "height": 436,
+          "bottom": 769
+        },
+        {
+          "id": "preview-card-action",
+          "x": 1126,
+          "y": 832,
+          "width": 204,
+          "height": 62,
+          "bottom": 894
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "01-menu-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "menu",
+      "missingImages": [],
+      "controls": [],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "02-hero-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "characters",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "btn-story-start",
+          "x": 887.6875,
+          "y": 754.671875,
+          "width": 609.296875,
+          "height": 62,
+          "bottom": 816.671875
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "05-adventure-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1000
+      },
+      "scrollY": 0,
+      "screen": "adventure",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "preview-event-cards",
+          "x": 75,
+          "y": 333,
+          "width": 1450,
+          "height": 436,
+          "bottom": 769
+        },
+        {
+          "id": "preview-card-action",
+          "x": 1126,
+          "y": 832,
+          "width": 204,
+          "height": 62,
+          "bottom": 894
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "03-deploy-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1044
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 49.59375,
+          "y": 174,
+          "width": 1177.8125,
+          "height": 518,
+          "bottom": 692
+        },
+        {
+          "id": "selection-panel",
+          "x": 1265.40625,
+          "y": 86,
+          "width": 285,
+          "height": 629,
+          "bottom": 715
+        },
+        {
+          "id": "hand-section",
+          "x": 49.59375,
+          "y": 775,
+          "width": 1177.8125,
+          "height": 217,
+          "bottom": 992
+        },
+        {
+          "id": "action-area",
+          "x": 1265.40625,
+          "y": 727,
+          "width": 285,
+          "height": 265,
+          "bottom": 992
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 7,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "04-attack-1600x1000",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "document": {
+        "width": 1600,
+        "height": 1044
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 49.59375,
+          "y": 174,
+          "width": 1177.8125,
+          "height": 518,
+          "bottom": 692
+        },
+        {
+          "id": "selection-panel",
+          "x": 1265.40625,
+          "y": 86,
+          "width": 285,
+          "height": 629,
+          "bottom": 715
+        },
+        {
+          "id": "hand-section",
+          "x": 49.59375,
+          "y": 775,
+          "width": 1177.8125,
+          "height": 217,
+          "bottom": 992
+        },
+        {
+          "id": "action-area",
+          "x": 1265.40625,
+          "y": 727,
+          "width": 285,
+          "height": 265,
+          "bottom": 992
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 3,
+      "phase": "battle"
+    },
+    {
+      "name": "01-menu-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 800
+      },
+      "scrollY": 0,
+      "screen": "menu",
+      "missingImages": [],
+      "controls": [],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "02-hero-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 800
+      },
+      "scrollY": 0,
+      "screen": "characters",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "btn-story-start",
+          "x": 712.390625,
+          "y": 649.328125,
+          "width": 512,
+          "height": 62,
+          "bottom": 711.328125
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "05-adventure-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 800
+      },
+      "scrollY": 0,
+      "screen": "adventure",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "preview-event-cards",
+          "x": 57.59375,
+          "y": 296.078125,
+          "width": 1164.8125,
+          "height": 358,
+          "bottom": 654.078125
+        },
+        {
+          "id": "preview-card-action",
+          "x": 966,
+          "y": 703.078125,
+          "width": 204,
+          "height": 62,
+          "bottom": 765.078125
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "03-deploy-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 847
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 39.671875,
+          "y": 151,
+          "width": 926.75,
+          "height": 380,
+          "bottom": 531
+        },
+        {
+          "id": "selection-panel",
+          "x": 997.140625,
+          "y": 74,
+          "width": 243.1875,
+          "height": 480,
+          "bottom": 554
+        },
+        {
+          "id": "hand-section",
+          "x": 39.671875,
+          "y": 614,
+          "width": 926.75,
+          "height": 181,
+          "bottom": 795
+        },
+        {
+          "id": "action-area",
+          "x": 997.140625,
+          "y": 566,
+          "width": 243.1875,
+          "height": 229,
+          "bottom": 795
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 7,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "04-attack-1280x800",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "document": {
+        "width": 1280,
+        "height": 847
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 39.671875,
+          "y": 151,
+          "width": 926.75,
+          "height": 380,
+          "bottom": 531
+        },
+        {
+          "id": "selection-panel",
+          "x": 997.140625,
+          "y": 74,
+          "width": 243.1875,
+          "height": 480,
+          "bottom": 554
+        },
+        {
+          "id": "hand-section",
+          "x": 39.671875,
+          "y": 614,
+          "width": 926.75,
+          "height": 181,
+          "bottom": 795
+        },
+        {
+          "id": "action-area",
+          "x": 997.140625,
+          "y": 566,
+          "width": 243.1875,
+          "height": 229,
+          "bottom": 795
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 3,
+      "phase": "battle"
+    },
+    {
+      "name": "01-menu-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "document": {
+        "width": 844,
+        "height": 390
+      },
+      "scrollY": 0,
+      "screen": "menu",
+      "missingImages": [],
+      "controls": [],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "02-hero-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "document": {
+        "width": 844,
+        "height": 390
+      },
+      "scrollY": 0,
+      "screen": "characters",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "btn-story-start",
+          "x": 415.359375,
+          "y": 549.390625,
+          "width": 392.671875,
+          "height": 62,
+          "bottom": 611.390625
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "05-adventure-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "document": {
+        "width": 844,
+        "height": 390
+      },
+      "scrollY": 0,
+      "screen": "adventure",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "preview-event-cards",
+          "x": 37.96875,
+          "y": 312.59375,
+          "width": 768.0625,
+          "height": 327,
+          "bottom": 639.59375
+        },
+        {
+          "id": "preview-card-action",
+          "x": 602.03125,
+          "y": 702.59375,
+          "width": 204,
+          "height": 62,
+          "bottom": 764.59375
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "03-deploy-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "document": {
+        "width": 844,
+        "height": 694
+      },
+      "scrollY": 298,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 20,
+          "y": -149,
+          "width": 556,
+          "height": 233,
+          "bottom": 84
+        },
+        {
+          "id": "selection-panel",
+          "x": 594,
+          "y": -224,
+          "width": 230,
+          "height": 331,
+          "bottom": 107
+        },
+        {
+          "id": "hand-section",
+          "x": 20,
+          "y": 163,
+          "width": 556,
+          "height": 181,
+          "bottom": 344
+        },
+        {
+          "id": "action-area",
+          "x": 594,
+          "y": 117,
+          "width": 230,
+          "height": 227,
+          "bottom": 344
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 7,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "04-attack-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "document": {
+        "width": 844,
+        "height": 697
+      },
+      "scrollY": 71,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 20,
+          "y": 78,
+          "width": 556,
+          "height": 233,
+          "bottom": 311
+        },
+        {
+          "id": "selection-panel",
+          "x": 594,
+          "y": 3,
+          "width": 230,
+          "height": 331,
+          "bottom": 334
+        },
+        {
+          "id": "hand-section",
+          "x": 20,
+          "y": 393.1875,
+          "width": 556,
+          "height": 181,
+          "bottom": 574.1875
+        },
+        {
+          "id": "action-area",
+          "x": 594,
+          "y": 344,
+          "width": 230,
+          "height": 230.1875,
+          "bottom": 574.1875
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 3,
+      "phase": "battle"
+    },
+    {
+      "name": "01-menu-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "screen": "menu",
+      "missingImages": [],
+      "controls": [],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "02-hero-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "screen": "characters",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "btn-story-start",
+          "x": 20,
+          "y": 512.09375,
+          "width": 354,
+          "height": 62,
+          "bottom": 574.09375
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 0,
+      "phase": "placement"
+    },
+    {
+      "name": "05-adventure-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "screen": "adventure",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "preview-event-cards",
+          "x": 18,
+          "y": 289.59375,
+          "width": 354,
+          "height": 214.5,
+          "bottom": 504.09375
+        },
+        {
+          "id": "preview-card-action",
+          "x": 18,
+          "y": 622.484375,
+          "width": 354,
+          "height": 62,
+          "bottom": 684.484375
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "03-deploy-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1475
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 12,
+          "y": 182.046875,
+          "width": 366,
+          "height": 300,
+          "bottom": 482.046875
+        },
+        {
+          "id": "selection-panel",
+          "x": 12,
+          "y": 886.046875,
+          "width": 366,
+          "height": 535.5,
+          "bottom": 1421.546875
+        },
+        {
+          "id": "hand-section",
+          "x": 12,
+          "y": 557.046875,
+          "width": 366,
+          "height": 197,
+          "bottom": 754.046875
+        },
+        {
+          "id": "action-area",
+          "x": 12,
+          "y": 764.046875,
+          "width": 366,
+          "height": 112,
+          "bottom": 876.046875
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 7,
+      "moveTiles": 0,
+      "attackTiles": 0,
+      "eventCards": 3,
+      "phase": "placement"
+    },
+    {
+      "name": "04-attack-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1503
+      },
+      "scrollY": 0,
+      "screen": "battle",
+      "missingImages": [],
+      "controls": [
+        {
+          "id": "game-board",
+          "x": 12,
+          "y": 182.046875,
+          "width": 366,
+          "height": 300,
+          "bottom": 482.046875
+        },
+        {
+          "id": "selection-panel",
+          "x": 12,
+          "y": 842.046875,
+          "width": 366,
+          "height": 607.890625,
+          "bottom": 1449.9375
+        },
+        {
+          "id": "hand-section",
+          "x": 12,
+          "y": 560.046875,
+          "width": 366,
+          "height": 197,
+          "bottom": 757.046875
+        },
+        {
+          "id": "action-area",
+          "x": 12,
+          "y": 767.046875,
+          "width": 366,
+          "height": 65,
+          "bottom": 832.046875
+        }
+      ],
+      "boardTiles": 35,
+      "deployTiles": 0,
+      "moveTiles": 2,
+      "attackTiles": 1,
+      "eventCards": 3,
+      "phase": "battle"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": []
+}

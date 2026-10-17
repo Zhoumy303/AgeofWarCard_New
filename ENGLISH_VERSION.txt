@@ -1,0 +1,36 @@
+AGE OF WAR — BILINGUAL EDITION
+
+Open game-en.html to play the bilingual edition.
+Use 中文 / English in the upper-right corner to switch languages.
+Your preference is remembered; switching keeps the current game and progress.
+Text printed inside card artwork remains English.
+Open game.html to play the preserved Chinese edition.
+Keep both HTML files in this project folder, alongside css/, js/ and lib/.
+
+The English edition includes translated menus, battle guidance, card rules,
+bosses, adventure events, help, save management and developer tools.
+The nine supplied PNG card faces are stored unchanged in lib/img/cards-en/.
+Select one of these cards, then choose "View full card" to inspect the artwork.
+Card artwork is shown in full; current AP costs and unit stats are separate.
+
+Gameplay rules and balance match the Chinese edition. Printed artwork has some
+differences from the implemented rules, notably Archer, Shadow Lord and Frost
+Dragon. The English details and the "LIVE GAME RULES" panel describe the actual
+game behavior. Artwork pixels have not been edited.
+
+English progress and AI statistics use a separate aow-en: storage namespace.
+Starting, continuing or clearing English saves does not alter Chinese saves.
+
+Verification: 80 automated tests passed, including Chinese regression tests,
+English startup and text checks, all three starter decks, asset integrity,
+save isolation and preservation of the original Chinese source files.
+Four seeded AI comparisons matched the Chinese game at every turn boundary
+through 16 player-turn switches each. This is a regression check, not a new
+balance study or exhaustive coverage of every possible match.
+
+Run the checks with Node.js:
+node --test tests/game.test.cjs tests/combat-regression.test.cjs tests/multiplayer.test.cjs tests/player-experience.test.cjs tests/english.test.cjs tests/english-parity.test.cjs
+
+Browser checks: quick match, full card viewer, deploy, move, AI turn and return
+of control, hero selection, adventure events and deck inspection; desktop and
+390-pixel mobile layouts. Card art loaded at its original 1000 x 1546 pixels.

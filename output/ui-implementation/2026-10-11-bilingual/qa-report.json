@@ -1,0 +1,1014 @@
+{
+  "checks": [
+    {
+      "name": "Default English menu and persistent upper-right switch",
+      "passed": true
+    },
+    {
+      "name": "Menu Chinese, help and access labels translate",
+      "passed": true
+    },
+    {
+      "name": "Selected card, deployment prompts and titles translate without altering match",
+      "passed": true
+    },
+    {
+      "name": "All 21 card names and rules are translated, canonical definitions retained",
+      "passed": true
+    },
+    {
+      "name": "Full printed art viewer rules and live stats translate",
+      "passed": true
+    },
+    {
+      "name": "Chinese deployment executes and keeps original card keys",
+      "passed": true
+    },
+    {
+      "name": "Dynamic combat forecast remains translated after updates and language round trips",
+      "passed": true
+    },
+    {
+      "name": "Boss and developer screens translate dynamically",
+      "passed": true
+    },
+    {
+      "name": "Hero selection and deck survive Chinese/English round trips",
+      "passed": true
+    },
+    {
+      "name": "Adventure event types, resources and descriptions translate without changing checkpoint",
+      "passed": true
+    },
+    {
+      "name": "Deck modal translates new dynamic content",
+      "passed": true
+    },
+    {
+      "name": "Chinese shop, prices and purchase update dynamically",
+      "passed": true
+    },
+    {
+      "name": "Chinese spring action works and checkpoint survives Continue",
+      "passed": true
+    },
+    {
+      "name": "Chinese preference persists through reload and saved adventure restores in English",
+      "passed": true
+    },
+    {
+      "name": "Save manager localizes labels and status without changing save types or data",
+      "passed": true
+    },
+    {
+      "name": "English and Chinese battle fit 1600x1000",
+      "passed": true
+    },
+    {
+      "name": "English and Chinese battle fit 2559x1423",
+      "passed": true
+    },
+    {
+      "name": "English and Chinese battle fit 800x900",
+      "passed": true
+    },
+    {
+      "name": "English and Chinese battle fit 390x844",
+      "passed": true
+    },
+    {
+      "name": "English and Chinese battle fit 320x844",
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "name": "01-menu-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": null,
+      "hand": null,
+      "rail": null,
+      "switch": {
+        "x": 1472.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 1516.375
+      },
+      "switchGroup": {
+        "x": 1471.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 1575
+      },
+      "nav": null,
+      "stage": null
+    },
+    {
+      "name": "02-battle-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": {
+        "x": 58,
+        "y": 186,
+        "width": 1157,
+        "height": 544,
+        "bottom": 730,
+        "right": 1215
+      },
+      "hand": {
+        "x": 52,
+        "y": 788,
+        "width": 1188,
+        "height": 197,
+        "bottom": 985,
+        "right": 1240
+      },
+      "rail": {
+        "x": 1265,
+        "y": 110,
+        "width": 285,
+        "height": 668,
+        "bottom": 778,
+        "right": 1550
+      },
+      "switch": {
+        "x": 1447.375,
+        "y": 23,
+        "width": 44,
+        "height": 32,
+        "bottom": 55,
+        "right": 1491.375
+      },
+      "switchGroup": {
+        "x": 1446.375,
+        "y": 22,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 56,
+        "right": 1550
+      },
+      "nav": {
+        "x": 1287,
+        "y": 16.5,
+        "width": 128,
+        "height": 48,
+        "bottom": 64.5,
+        "right": 1415
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1000,
+        "bottom": 1000,
+        "right": 1600
+      }
+    },
+    {
+      "name": "03-hero-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": null,
+      "hand": null,
+      "rail": null,
+      "switch": {
+        "x": 1472.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 1516.375
+      },
+      "switchGroup": {
+        "x": 1471.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 1575
+      },
+      "nav": null,
+      "stage": null
+    },
+    {
+      "name": "04-adventure-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": null,
+      "hand": null,
+      "rail": null,
+      "switch": {
+        "x": 1472.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 1516.375
+      },
+      "switchGroup": {
+        "x": 1471.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 1575
+      },
+      "nav": null,
+      "stage": null
+    },
+    {
+      "name": "05-shop-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": null,
+      "hand": null,
+      "rail": null,
+      "switch": {
+        "x": 1472.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 1516.375
+      },
+      "switchGroup": {
+        "x": 1471.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 1575
+      },
+      "nav": null,
+      "stage": null
+    },
+    {
+      "name": "07-save-manager-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": null,
+      "hand": null,
+      "rail": null,
+      "switch": {
+        "x": 1472.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 1516.375
+      },
+      "switchGroup": {
+        "x": 1471.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 1575
+      },
+      "nav": null,
+      "stage": null
+    },
+    {
+      "name": "06-battle-en-1600x1000",
+      "language": "en",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": {
+        "x": 58,
+        "y": 186,
+        "width": 1157,
+        "height": 544,
+        "bottom": 730,
+        "right": 1215
+      },
+      "hand": {
+        "x": 52,
+        "y": 788,
+        "width": 1188,
+        "height": 197,
+        "bottom": 985,
+        "right": 1240
+      },
+      "rail": {
+        "x": 1265,
+        "y": 110,
+        "width": 285,
+        "height": 668,
+        "bottom": 778,
+        "right": 1550
+      },
+      "switch": {
+        "x": 1447.375,
+        "y": 23,
+        "width": 44,
+        "height": 32,
+        "bottom": 55,
+        "right": 1491.375
+      },
+      "switchGroup": {
+        "x": 1446.375,
+        "y": 22,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 56,
+        "right": 1550
+      },
+      "nav": {
+        "x": 1274.296875,
+        "y": 16.5,
+        "width": 140.703125,
+        "height": 48,
+        "bottom": 64.5,
+        "right": 1415
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1000,
+        "bottom": 1000,
+        "right": 1600
+      }
+    },
+    {
+      "name": "06-battle-zh-1600x1000",
+      "language": "zh-CN",
+      "width": 1600,
+      "height": 1000,
+      "documentWidth": 1600,
+      "missingImages": [],
+      "board": {
+        "x": 58,
+        "y": 186,
+        "width": 1157,
+        "height": 544,
+        "bottom": 730,
+        "right": 1215
+      },
+      "hand": {
+        "x": 52,
+        "y": 788,
+        "width": 1188,
+        "height": 197,
+        "bottom": 985,
+        "right": 1240
+      },
+      "rail": {
+        "x": 1265,
+        "y": 110,
+        "width": 285,
+        "height": 668,
+        "bottom": 778,
+        "right": 1550
+      },
+      "switch": {
+        "x": 1447.375,
+        "y": 23,
+        "width": 44,
+        "height": 32,
+        "bottom": 55,
+        "right": 1491.375
+      },
+      "switchGroup": {
+        "x": 1446.375,
+        "y": 22,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 56,
+        "right": 1550
+      },
+      "nav": {
+        "x": 1287,
+        "y": 16.5,
+        "width": 128,
+        "height": 48,
+        "bottom": 64.5,
+        "right": 1415
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1000,
+        "bottom": 1000,
+        "right": 1600
+      }
+    },
+    {
+      "name": "06-battle-en-2559x1423",
+      "language": "en",
+      "width": 2559,
+      "height": 1423,
+      "documentWidth": 2559,
+      "missingImages": [],
+      "board": {
+        "x": 223.63400268554688,
+        "y": 264.6780090332031,
+        "width": 1646.410888671875,
+        "height": 774.112060546875,
+        "bottom": 1038.7900695800781,
+        "right": 1870.0448913574219
+      },
+      "hand": {
+        "x": 215.09600830078125,
+        "y": 1121.323974609375,
+        "width": 1690.52392578125,
+        "height": 280.3310546875,
+        "bottom": 1401.655029296875,
+        "right": 1905.6199340820312
+      },
+      "rail": {
+        "x": 1941.1949462890625,
+        "y": 156.52999877929688,
+        "width": 405.5550537109375,
+        "height": 950.56396484375,
+        "bottom": 1107.0939636230469,
+        "right": 2346.75
+      },
+      "switch": {
+        "x": 2200.714599609375,
+        "y": 32.71987533569336,
+        "width": 62.61181640625,
+        "height": 45.5359992980957,
+        "bottom": 78.25587463378906,
+        "right": 2263.326416015625
+      },
+      "switchGroup": {
+        "x": 2199.29150390625,
+        "y": 31.296875,
+        "width": 147.45849609375,
+        "height": 48.38200378417969,
+        "bottom": 79.67887878417969,
+        "right": 2346.75
+      },
+      "nav": {
+        "x": 1954.4244384765625,
+        "y": 23.47949981689453,
+        "width": 200.2205810546875,
+        "height": 68.30400085449219,
+        "bottom": 91.78350067138672,
+        "right": 2154.64501953125
+      },
+      "stage": {
+        "x": 141.10000610351562,
+        "y": 0,
+        "width": 2276.800048828125,
+        "height": 1423,
+        "bottom": 1423,
+        "right": 2417.9000549316406
+      }
+    },
+    {
+      "name": "06-battle-zh-2559x1423",
+      "language": "zh-CN",
+      "width": 2559,
+      "height": 1423,
+      "documentWidth": 2559,
+      "missingImages": [],
+      "board": {
+        "x": 223.63400268554688,
+        "y": 264.6780090332031,
+        "width": 1646.410888671875,
+        "height": 774.112060546875,
+        "bottom": 1038.7900695800781,
+        "right": 1870.0448913574219
+      },
+      "hand": {
+        "x": 215.09600830078125,
+        "y": 1121.323974609375,
+        "width": 1690.52392578125,
+        "height": 280.3310546875,
+        "bottom": 1401.655029296875,
+        "right": 1905.6199340820312
+      },
+      "rail": {
+        "x": 1941.1949462890625,
+        "y": 156.52999877929688,
+        "width": 405.5550537109375,
+        "height": 950.56396484375,
+        "bottom": 1107.0939636230469,
+        "right": 2346.75
+      },
+      "switch": {
+        "x": 2200.714599609375,
+        "y": 32.71987533569336,
+        "width": 62.61181640625,
+        "height": 45.5359992980957,
+        "bottom": 78.25587463378906,
+        "right": 2263.326416015625
+      },
+      "switchGroup": {
+        "x": 2199.29150390625,
+        "y": 31.296875,
+        "width": 147.45849609375,
+        "height": 48.38200378417969,
+        "bottom": 79.67887878417969,
+        "right": 2346.75
+      },
+      "nav": {
+        "x": 1972.5009765625,
+        "y": 23.47949981689453,
+        "width": 182.14404296875,
+        "height": 68.30400085449219,
+        "bottom": 91.78350067138672,
+        "right": 2154.64501953125
+      },
+      "stage": {
+        "x": 141.10000610351562,
+        "y": 0,
+        "width": 2276.800048828125,
+        "height": 1423,
+        "bottom": 1423,
+        "right": 2417.9000549316406
+      }
+    },
+    {
+      "name": "06-battle-en-800x900",
+      "language": "en",
+      "width": 800,
+      "height": 900,
+      "documentWidth": 800,
+      "missingImages": [],
+      "board": {
+        "x": 20,
+        "y": 172,
+        "width": 512,
+        "height": 424,
+        "bottom": 596,
+        "right": 532
+      },
+      "hand": {
+        "x": 20,
+        "y": 675,
+        "width": 512,
+        "height": 197,
+        "bottom": 872,
+        "right": 532
+      },
+      "rail": {
+        "x": 550,
+        "y": 86,
+        "width": 230,
+        "height": 533,
+        "bottom": 619,
+        "right": 780
+      },
+      "switch": {
+        "x": 672.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 716.375
+      },
+      "switchGroup": {
+        "x": 671.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 775
+      },
+      "nav": {
+        "x": 492.640625,
+        "y": 10.5,
+        "width": 122.359375,
+        "height": 48,
+        "bottom": 58.5,
+        "right": 615
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": 915.5,
+        "bottom": 915.5,
+        "right": 800
+      }
+    },
+    {
+      "name": "06-battle-zh-800x900",
+      "language": "zh-CN",
+      "width": 800,
+      "height": 900,
+      "documentWidth": 800,
+      "missingImages": [],
+      "board": {
+        "x": 20,
+        "y": 172,
+        "width": 512,
+        "height": 424,
+        "bottom": 596,
+        "right": 532
+      },
+      "hand": {
+        "x": 20,
+        "y": 675,
+        "width": 512,
+        "height": 217,
+        "bottom": 892,
+        "right": 532
+      },
+      "rail": {
+        "x": 550,
+        "y": 86,
+        "width": 230,
+        "height": 533,
+        "bottom": 619,
+        "right": 780
+      },
+      "switch": {
+        "x": 672.375,
+        "y": 21,
+        "width": 44,
+        "height": 32,
+        "bottom": 53,
+        "right": 716.375
+      },
+      "switchGroup": {
+        "x": 671.375,
+        "y": 20,
+        "width": 103.625,
+        "height": 34,
+        "bottom": 54,
+        "right": 775
+      },
+      "nav": {
+        "x": 505,
+        "y": 10.5,
+        "width": 110,
+        "height": 48,
+        "bottom": 58.5,
+        "right": 615
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": 935.5,
+        "bottom": 935.5,
+        "right": 800
+      }
+    },
+    {
+      "name": "06-battle-en-390x844",
+      "language": "en",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "missingImages": [],
+      "board": {
+        "x": 12,
+        "y": 181.046875,
+        "width": 366,
+        "height": 300,
+        "bottom": 481.046875,
+        "right": 378
+      },
+      "hand": {
+        "x": 12,
+        "y": 559.046875,
+        "width": 366,
+        "height": 197,
+        "bottom": 756.046875,
+        "right": 378
+      },
+      "rail": {
+        "x": 12,
+        "y": 888.046875,
+        "width": 366,
+        "height": 543.125,
+        "bottom": 1431.171875,
+        "right": 378
+      },
+      "switch": {
+        "x": 288.5,
+        "y": 11,
+        "width": 38,
+        "height": 32,
+        "bottom": 43,
+        "right": 326.5
+      },
+      "switchGroup": {
+        "x": 287.5,
+        "y": 10,
+        "width": 90.5,
+        "height": 34,
+        "bottom": 44,
+        "right": 378
+      },
+      "nav": {
+        "x": 274.359375,
+        "y": 49,
+        "width": 103.640625,
+        "height": 40,
+        "bottom": 89,
+        "right": 378
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1476.671875,
+        "bottom": 1476.671875,
+        "right": 390
+      }
+    },
+    {
+      "name": "06-battle-zh-390x844",
+      "language": "zh-CN",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "missingImages": [],
+      "board": {
+        "x": 12,
+        "y": 181.046875,
+        "width": 366,
+        "height": 300,
+        "bottom": 481.046875,
+        "right": 378
+      },
+      "hand": {
+        "x": 12,
+        "y": 556.046875,
+        "width": 366,
+        "height": 197,
+        "bottom": 753.046875,
+        "right": 378
+      },
+      "rail": {
+        "x": 12,
+        "y": 885.046875,
+        "width": 366,
+        "height": 521.4375,
+        "bottom": 1406.484375,
+        "right": 378
+      },
+      "switch": {
+        "x": 288.5,
+        "y": 11,
+        "width": 38,
+        "height": 32,
+        "bottom": 43,
+        "right": 326.5
+      },
+      "switchGroup": {
+        "x": 287.5,
+        "y": 10,
+        "width": 90.5,
+        "height": 34,
+        "bottom": 44,
+        "right": 378
+      },
+      "nav": {
+        "x": 286,
+        "y": 49,
+        "width": 92,
+        "height": 40,
+        "bottom": 89,
+        "right": 378
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1451.984375,
+        "bottom": 1451.984375,
+        "right": 390
+      }
+    },
+    {
+      "name": "06-battle-en-320x844",
+      "language": "en",
+      "width": 320,
+      "height": 844,
+      "documentWidth": 320,
+      "missingImages": [],
+      "board": {
+        "x": 12,
+        "y": 181.046875,
+        "width": 296,
+        "height": 300,
+        "bottom": 481.046875,
+        "right": 308
+      },
+      "hand": {
+        "x": 12,
+        "y": 559.046875,
+        "width": 296,
+        "height": 197,
+        "bottom": 756.046875,
+        "right": 308
+      },
+      "rail": {
+        "x": 12,
+        "y": 888.046875,
+        "width": 296,
+        "height": 543.125,
+        "bottom": 1431.171875,
+        "right": 308
+      },
+      "switch": {
+        "x": 218.5,
+        "y": 11,
+        "width": 38,
+        "height": 32,
+        "bottom": 43,
+        "right": 256.5
+      },
+      "switchGroup": {
+        "x": 217.5,
+        "y": 10,
+        "width": 90.5,
+        "height": 34,
+        "bottom": 44,
+        "right": 308
+      },
+      "nav": {
+        "x": 204.359375,
+        "y": 49,
+        "width": 103.640625,
+        "height": 40,
+        "bottom": 89,
+        "right": 308
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 1476.671875,
+        "bottom": 1476.671875,
+        "right": 320
+      }
+    },
+    {
+      "name": "06-battle-zh-320x844",
+      "language": "zh-CN",
+      "width": 320,
+      "height": 844,
+      "documentWidth": 320,
+      "missingImages": [],
+      "board": {
+        "x": 12,
+        "y": 181.046875,
+        "width": 296,
+        "height": 300,
+        "bottom": 481.046875,
+        "right": 308
+      },
+      "hand": {
+        "x": 12,
+        "y": 559.046875,
+        "width": 296,
+        "height": 197,
+        "bottom": 756.046875,
+        "right": 308
+      },
+      "rail": {
+        "x": 12,
+        "y": 888.046875,
+        "width": 296,
+        "height": 543.125,
+        "bottom": 1431.171875,
+        "right": 308
+      },
+      "switch": {
+        "x": 218.5,
+        "y": 11,
+        "width": 38,
+        "height": 32,
+        "bottom": 43,
+        "right": 256.5
+      },
+      "switchGroup": {
+        "x": 217.5,
+        "y": 10,
+        "width": 90.5,
+        "height": 34,
+        "bottom": 44,
+        "right": 308
+      },
+      "nav": {
+        "x": 216,
+        "y": 49,
+        "width": 92,
+        "height": 40,
+        "bottom": 89,
+        "right": 308
+      },
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 1476.671875,
+        "bottom": 1476.671875,
+        "right": 320
+      }
+    }
+  ],
+  "untranslated": [
+    {
+      "scope": "#help-modal",
+      "values": [
+        "：点击“取消”或按Esc。按钮不可点击表示未满足条件。"
+      ]
+    },
+    {
+      "scope": "#main-menu",
+      "values": []
+    },
+    {
+      "scope": ".game-container",
+      "values": [
+        "取消 · Esc"
+      ]
+    },
+    {
+      "scope": "#card-art-modal",
+      "values": []
+    },
+    {
+      "scope": "#selection-panel",
+      "values": []
+    },
+    {
+      "scope": "#boss-info",
+      "values": []
+    },
+    {
+      "scope": "#boss-info",
+      "values": []
+    },
+    {
+      "scope": "#boss-info",
+      "values": []
+    },
+    {
+      "scope": "#level-select-panel",
+      "values": []
+    },
+    {
+      "scope": "#debug-tools",
+      "values": []
+    },
+    {
+      "scope": "#story-select-panel",
+      "values": [
+        "⚔︎   AGE OF WAR"
+      ]
+    },
+    {
+      "scope": "#battle-preview-root",
+      "values": [
+        "⚔︎   AGE OF WAR"
+      ]
+    },
+    {
+      "scope": "#preview-card-list-modal",
+      "values": []
+    },
+    {
+      "scope": "#shop-modal",
+      "values": []
+    },
+    {
+      "scope": "#spring-modal",
+      "values": []
+    },
+    {
+      "scope": "#save-manager-modal",
+      "values": []
+    }
+  ],
+  "dialogs": [
+    "存档验证完成。\n有效存档：1/3"
+  ],
+  "pageErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,946 @@
+{
+  "generatedAt": "2026-10-02T12:08:57.718Z",
+  "sourceHash": "9ac15d0dda0f40064d0645eeae4fb6145865c0e6278c951ce9508b5e452536cc",
+  "mode": "experience-compare",
+  "storyHpBonus": 0,
+  "elapsedMs": 110069,
+  "summary": {
+    "games": 24,
+    "player1Wins": 7,
+    "player2Wins": 16,
+    "unfinished": 1,
+    "errors": 0,
+    "player1WinRateAmongFinished": 0.304,
+    "averageHalfTurnsFinished": 62.4,
+    "stopReasons": {
+      "condition": 23,
+      "turn-limit": 1
+    }
+  },
+  "games": [
+    {
+      "seed": 1,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 63,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 13,
+      "ap": [
+        1,
+        0
+      ],
+      "reason": "condition",
+      "steps": 766,
+      "virtualMs": 35700,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 1,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 67,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 15,
+      "ap": [
+        1,
+        1
+      ],
+      "reason": "condition",
+      "steps": 817,
+      "virtualMs": 37800,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 2,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": null,
+      "turns": 160,
+      "hp": [
+        4,
+        7
+      ],
+      "units": 12,
+      "ap": [
+        2,
+        1
+      ],
+      "reason": "turn-limit",
+      "steps": 2559,
+      "virtualMs": 158200,
+      "longestQuietTurns": 1,
+      "errors": [],
+      "diagnostics": {
+        "units": [
+          {
+            "type": "shadowMage",
+            "player": 1,
+            "row": 0,
+            "col": 5,
+            "hp": 4,
+            "shield": 0
+          },
+          {
+            "type": "lightPriest",
+            "player": 1,
+            "row": 4,
+            "col": 3,
+            "hp": 3,
+            "shield": 0
+          },
+          {
+            "type": "shadowLord",
+            "player": 1,
+            "row": 2,
+            "col": 4,
+            "hp": 3,
+            "shield": 0
+          },
+          {
+            "type": "shieldWarrior",
+            "player": 1,
+            "row": 1,
+            "col": 4,
+            "hp": 5,
+            "shield": 0
+          },
+          {
+            "type": "shieldWarrior",
+            "player": 2,
+            "row": 1,
+            "col": 3,
+            "hp": 5,
+            "shield": 0
+          },
+          {
+            "type": "beastBat",
+            "player": 1,
+            "row": 1,
+            "col": 1,
+            "hp": 6,
+            "shield": 0
+          },
+          {
+            "type": "shieldWarrior",
+            "player": 1,
+            "row": 2,
+            "col": 3,
+            "hp": 5,
+            "shield": 0
+          },
+          {
+            "type": "wolf",
+            "player": 1,
+            "row": 0,
+            "col": 2,
+            "hp": 1,
+            "shield": 0
+          },
+          {
+            "type": "lightPriest",
+            "player": 1,
+            "row": 3,
+            "col": 3,
+            "hp": 3,
+            "shield": 0
+          },
+          {
+            "type": "beastBat",
+            "player": 2,
+            "row": 3,
+            "col": 4,
+            "hp": 4,
+            "shield": 0
+          },
+          {
+            "type": "phaseBeast",
+            "player": 1,
+            "row": 4,
+            "col": 1,
+            "hp": 4,
+            "shield": 0
+          },
+          {
+            "type": "wolf",
+            "player": 2,
+            "row": 1,
+            "col": 5,
+            "hp": 4,
+            "shield": 0
+          }
+        ],
+        "players": [
+          {
+            "hand": [
+              "iceDragon",
+              "archer",
+              "minotaur"
+            ],
+            "deck": 8,
+            "graveyard": 4
+          },
+          {
+            "hand": [
+              "archer",
+              "shadowLord",
+              "iceDragon",
+              "minotaur"
+            ],
+            "deck": 16,
+            "graveyard": 3
+          }
+        ],
+        "frozen": [],
+        "recentDecisions": [
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "shadowMage",
+              "unitPosition": {
+                "row": 1,
+                "col": 5
+              },
+              "targetPosition": {
+                "row": 0,
+                "col": 5
+              },
+              "score": 23,
+              "availablePositions": 2
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848009
+          },
+          {
+            "type": "attack_target",
+            "data": {
+              "unitType": "lightPriest",
+              "unitPosition": {
+                "row": 4,
+                "col": 3
+              },
+              "targetPosition": {
+                "row": 2,
+                "col": 3
+              },
+              "decisionType": "attack_enemy_unit",
+              "availableTargets": 2,
+              "selectedScore": 8.9091756218113,
+              "skillBonus": 0,
+              "shadowMoveBonus": false
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848016
+          },
+          {
+            "type": "attack_target",
+            "data": {
+              "unitType": "shadowLord",
+              "unitPosition": {
+                "row": 2,
+                "col": 4
+              },
+              "targetPosition": {
+                "row": 2,
+                "col": 3
+              },
+              "decisionType": "attack_enemy_unit",
+              "availableTargets": 3,
+              "selectedScore": 78.19887773622759,
+              "skillBonus": 0,
+              "shadowMoveBonus": false
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848032
+          },
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "shieldWarrior",
+              "unitPosition": {
+                "row": 1,
+                "col": 3
+              },
+              "targetPosition": {
+                "row": 1,
+                "col": 4
+              },
+              "score": 3,
+              "availablePositions": 2
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848046
+          },
+          {
+            "type": "attack_target",
+            "data": {
+              "unitType": "beastBat",
+              "unitPosition": {
+                "row": 1,
+                "col": 1
+              },
+              "targetPosition": {
+                "row": 1,
+                "col": 2
+              },
+              "decisionType": "attack_enemy_unit",
+              "availableTargets": 1,
+              "selectedScore": 12.538827328011394,
+              "skillBonus": 0,
+              "shadowMoveBonus": false
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848053
+          },
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "shieldWarrior",
+              "unitPosition": {
+                "row": 2,
+                "col": 2
+              },
+              "targetPosition": {
+                "row": 2,
+                "col": 3
+              },
+              "score": 3,
+              "availablePositions": 1
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848066
+          },
+          {
+            "type": "attack_target",
+            "data": {
+              "unitType": "wolf",
+              "unitPosition": {
+                "row": 0,
+                "col": 2
+              },
+              "targetPosition": {
+                "row": 1,
+                "col": 2
+              },
+              "decisionType": "attack_enemy_unit",
+              "availableTargets": 2,
+              "selectedScore": 74.07310627773404,
+              "skillBonus": 0,
+              "shadowMoveBonus": false
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848073
+          },
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "lightPriest",
+              "unitPosition": {
+                "row": 3,
+                "col": 2
+              },
+              "targetPosition": {
+                "row": 3,
+                "col": 3
+              },
+              "score": 13,
+              "availablePositions": 3
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848084
+          },
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "phaseBeast",
+              "unitPosition": {
+                "row": 3,
+                "col": 0
+              },
+              "targetPosition": {
+                "row": 4,
+                "col": 1
+              },
+              "score": 3,
+              "availablePositions": 2
+            },
+            "turn": 158,
+            "phase": "battle",
+            "timestamp": 1790942848091
+          },
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "shieldWarrior",
+              "unitPosition": {
+                "row": 0,
+                "col": 3
+              },
+              "targetPosition": {
+                "row": 1,
+                "col": 3
+              },
+              "score": 23,
+              "availablePositions": 1
+            },
+            "turn": 159,
+            "phase": "battle",
+            "timestamp": 1790942848126
+          },
+          {
+            "type": "attack_target",
+            "data": {
+              "unitType": "beastBat",
+              "unitPosition": {
+                "row": 3,
+                "col": 4
+              },
+              "targetPosition": {
+                "row": 2,
+                "col": 4
+              },
+              "decisionType": "attack_enemy_unit",
+              "availableTargets": 2,
+              "selectedScore": 16.803978002397344,
+              "skillBonus": 0,
+              "shadowMoveBonus": false
+            },
+            "turn": 159,
+            "phase": "battle",
+            "timestamp": 1790942848133
+          },
+          {
+            "type": "move_position",
+            "data": {
+              "unitType": "wolf",
+              "unitPosition": {
+                "row": 2,
+                "col": 5
+              },
+              "targetPosition": {
+                "row": 1,
+                "col": 5
+              },
+              "score": 23,
+              "availablePositions": 2
+            },
+            "turn": 159,
+            "phase": "battle",
+            "timestamp": 1790942848147
+          }
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 43,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 13,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 511,
+      "virtualMs": 22400,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 3,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 141,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 13,
+      "ap": [
+        1,
+        1
+      ],
+      "reason": "condition",
+      "steps": 2048,
+      "virtualMs": 115500,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 3,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 1,
+      "turns": 64,
+      "hp": [
+        7,
+        -1
+      ],
+      "units": 13,
+      "ap": [
+        1,
+        1
+      ],
+      "reason": "condition",
+      "steps": 826,
+      "virtualMs": 39900,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 4,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 97,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 9,
+      "ap": [
+        1,
+        1
+      ],
+      "reason": "condition",
+      "steps": 1463,
+      "virtualMs": 86800,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 4,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 77,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 13,
+      "ap": [
+        1,
+        0
+      ],
+      "reason": "condition",
+      "steps": 1083,
+      "virtualMs": 60200,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 5,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 55,
+      "hp": [
+        -2,
+        1
+      ],
+      "units": 15,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 713,
+      "virtualMs": 32200,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 5,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 67,
+      "hp": [
+        -2,
+        7
+      ],
+      "units": 14,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 1016,
+      "virtualMs": 59500,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 6,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 1,
+      "turns": 36,
+      "hp": [
+        7,
+        -2
+      ],
+      "units": 14,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 398,
+      "virtualMs": 16800,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 6,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 1,
+      "turns": 20,
+      "hp": [
+        7,
+        -2
+      ],
+      "units": 9,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 183,
+      "virtualMs": 5600,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 7,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 65,
+      "hp": [
+        -1,
+        7
+      ],
+      "units": 18,
+      "ap": [
+        0,
+        1
+      ],
+      "reason": "condition",
+      "steps": 914,
+      "virtualMs": 49000,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 7,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 75,
+      "hp": [
+        -2,
+        7
+      ],
+      "units": 16,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 1065,
+      "virtualMs": 63000,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 8,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 1,
+      "turns": 48,
+      "hp": [
+        4,
+        0
+      ],
+      "units": 14,
+      "ap": [
+        0,
+        1
+      ],
+      "reason": "condition",
+      "steps": 657,
+      "virtualMs": 29400,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 8,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 69,
+      "hp": [
+        -1,
+        6
+      ],
+      "units": 18,
+      "ap": [
+        1,
+        0
+      ],
+      "reason": "condition",
+      "steps": 1047,
+      "virtualMs": 58800,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 9,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 1,
+      "turns": 40,
+      "hp": [
+        7,
+        -1
+      ],
+      "units": 12,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 491,
+      "virtualMs": 25200,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 9,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 113,
+      "hp": [
+        0,
+        5
+      ],
+      "units": 12,
+      "ap": [
+        0,
+        1
+      ],
+      "reason": "condition",
+      "steps": 1866,
+      "virtualMs": 130900,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 10,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 41,
+      "hp": [
+        -1,
+        7
+      ],
+      "units": 10,
+      "ap": [
+        1,
+        0
+      ],
+      "reason": "condition",
+      "steps": 473,
+      "virtualMs": 17500,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 10,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 1,
+      "turns": 20,
+      "hp": [
+        7,
+        -2
+      ],
+      "units": 11,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 199,
+      "virtualMs": 5600,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 11,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 1,
+      "turns": 82,
+      "hp": [
+        7,
+        -1
+      ],
+      "units": 19,
+      "ap": [
+        1,
+        0
+      ],
+      "reason": "condition",
+      "steps": 1219,
+      "virtualMs": 75600,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 11,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 47,
+      "hp": [
+        -2,
+        7
+      ],
+      "units": 10,
+      "ap": [
+        1,
+        0
+      ],
+      "reason": "condition",
+      "steps": 579,
+      "virtualMs": 28700,
+      "longestQuietTurns": 0,
+      "errors": []
+    },
+    {
+      "seed": 12,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 2,
+      "winner": 2,
+      "turns": 55,
+      "hp": [
+        0,
+        7
+      ],
+      "units": 18,
+      "ap": [
+        0,
+        0
+      ],
+      "reason": "condition",
+      "steps": 800,
+      "virtualMs": 41300,
+      "longestQuietTurns": 1,
+      "errors": []
+    },
+    {
+      "seed": 12,
+      "mode": "experience",
+      "storyHpBonus": 0,
+      "player2OpeningAP": 0,
+      "winner": 2,
+      "turns": 51,
+      "hp": [
+        -1,
+        7
+      ],
+      "units": 13,
+      "ap": [
+        0,
+        1
+      ],
+      "reason": "condition",
+      "steps": 653,
+      "virtualMs": 28000,
+      "longestQuietTurns": 1,
+      "errors": []
+    }
+  ],
+  "comparison": [
+    {
+      "player2OpeningAP": 2,
+      "games": 12,
+      "player1Wins": 4,
+      "player2Wins": 7,
+      "unfinished": 1,
+      "errors": 0,
+      "player1WinRateAmongFinished": 0.364,
+      "averageHalfTurnsFinished": 65.7,
+      "stopReasons": {
+        "condition": 11,
+        "turn-limit": 1
+      }
+    },
+    {
+      "player2OpeningAP": 0,
+      "games": 12,
+      "player1Wins": 3,
+      "player2Wins": 9,
+      "unfinished": 0,
+      "errors": 0,
+      "player1WinRateAmongFinished": 0.25,
+      "averageHalfTurnsFinished": 59.4,
+      "stopReasons": {
+        "condition": 12
+      }
+    }
+  ]
+}

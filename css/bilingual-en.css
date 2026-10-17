@@ -1,0 +1,18 @@
+.language-switcher { position:fixed; top:20px; right:25px; z-index:10001; display:flex; gap:0; background:#122019; border:1px solid #806647; }
+.language-switcher button { margin:0; min-height:32px; padding:5px 10px; border:0; font:12px/1.5 'Segoe UI','Microsoft YaHei',sans-serif; color:#b4a78b; background:none; }
+.language-switcher button[aria-pressed='true'] { color:#f0d3a1; background:#344033; }
+.screen-heading { padding-right:190px; }
+.battle-toolbar { padding-right:185px; }
+body[data-language='zh'] { font-family:'Microsoft YaHei','Segoe UI',sans-serif; }
+body[data-language='zh'] h1,body[data-language='zh'] h2,body[data-language='zh'] h3 { font-family:Georgia,'SimSun',serif; }
+@media(min-width:1000px) {
+  body[data-screen='battle'] .language-switcher { right:calc(var(--battle-left,0px) + 50px * var(--battle-scale,1)); top:calc(var(--battle-top,0px) + 22px * var(--battle-scale,1)); transform:scale(var(--battle-scale,1)); transform-origin:top right; }
+}
+@media(max-width:680px) {
+  .language-switcher { top:10px; right:12px; }
+  .language-switcher button { padding:5px 8px; font-size:11px; }
+  .battle-toolbar { position:relative; min-height:96px; padding:10px 12px 43px; }
+  .battle-toolbar nav { position:absolute; right:12px; bottom:6px; }
+  .cell.deployable .cell-action { font-size:clamp(8px,2.5vw,12px); line-height:1.2; white-space:nowrap; }
+  .screen-heading { padding-right:125px; flex-wrap:wrap; min-height:90px; padding-top:9px; padding-bottom:9px; gap:4px 12px; }
+}

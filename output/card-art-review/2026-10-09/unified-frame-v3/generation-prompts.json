@@ -1,0 +1,108 @@
+{
+  "tool": "built-in image_gen",
+  "revision": "v3 common brown reference frame",
+  "corner_order": [
+    "cost (top left)",
+    "range (top right)",
+    "health (bottom left)",
+    "attack (bottom right)"
+  ],
+  "images": [
+    {
+      "key": "blood-bat",
+      "name": "嗜血蝙蝠",
+      "corners": [
+        "1",
+        "1",
+        "3",
+        "1"
+      ],
+      "file": "blood-bat-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.Exact corner digits for Blood Bat: TOP LEFT \"1\" (cost), TOP RIGHT \"1\" (range), BOTTOM LEFT \"3\" (health), BOTTOM RIGHT \"1\" (attack). There must be exactly these four corner numerals and no others. Preserve the bat artwork from Image 1."
+    },
+    {
+      "key": "phase-beast",
+      "name": "相位兽",
+      "corners": [
+        "2",
+        "1",
+        "4",
+        "2"
+      ],
+      "file": "phase-beast-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.Exact corner digits for 相位兽: TOP LEFT \"2\" (cost), TOP RIGHT \"1\" (range), BOTTOM LEFT \"4\" (health), BOTTOM RIGHT \"2\" (attack). There must be exactly these four corner values and no others. Preserve the approved subject and all central illustration details from Image 1."
+    },
+    {
+      "key": "light-priest",
+      "name": "圣光牧师",
+      "corners": [
+        "2",
+        "2",
+        "3",
+        "1"
+      ],
+      "file": "light-priest-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.Exact corner digits for 圣光牧师: TOP LEFT \"2\" (cost), TOP RIGHT \"2\" (range), BOTTOM LEFT \"3\" (health), BOTTOM RIGHT \"1\" (attack). There must be exactly these four corner values and no others. Preserve the approved subject and all central illustration details from Image 1."
+    },
+    {
+      "key": "revenge-colossus",
+      "name": "反攻巨像",
+      "corners": [
+        "0",
+        "2",
+        "15",
+        "100"
+      ],
+      "file": "revenge-colossus-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.Exact corner digits for 反攻巨像: TOP LEFT \"0\" (cost), TOP RIGHT \"2\" (range), BOTTOM LEFT \"15\" (health), BOTTOM RIGHT \"100\" (attack). There must be exactly these four corner values and no others. The lower left must clearly read FIFTEEN, \"15\", and the lower right must clearly read ONE HUNDRED, \"100\", with all three digits visible. Adjust only the font size within the existing corner panels to fit multi-digit values comfortably; do not enlarge or move the panels. Preserve the approved subject and all central illustration details from Image 1."
+    },
+    {
+      "key": "skeleton",
+      "name": "骷髅",
+      "corners": [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      "file": "skeleton-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.Exact corner digits for 骷髅: TOP LEFT \"0\" (cost), TOP RIGHT \"1\" (range), BOTTOM LEFT \"1\" (health), BOTTOM RIGHT \"1\" (attack). There must be exactly these four corner values and no others. Preserve the approved subject and all central illustration details from Image 1."
+    },
+    {
+      "key": "frost-nova",
+      "name": "寒冰新星",
+      "corners": [
+        "3",
+        "",
+        "",
+        ""
+      ],
+      "file": "frost-nova-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.This is a SPELL card, not a unit. The ONLY numeral is TOP LEFT \"3\" for its cost. TOP RIGHT must be a BLANK BROWN CORNER PANEL, BOTTOM LEFT must be a BLANK BROWN CORNER PANEL, and BOTTOM RIGHT must be a BLANK BROWN CORNER PANEL. Absolutely no zero, dash, label, icon, roman numeral or other marking in those three corners; retain the identical four-panel brown frame structure. Remove every previous border ornament of Image 1, preserving the central spell artwork and spell symbol, including its original drawn decorative INTERNAL artwork if present. Do not transplant the Shield Warrior or its lettering from Image 2."
+    },
+    {
+      "key": "shadow-corrosion",
+      "name": "暗影腐蚀",
+      "corners": [
+        "1",
+        "",
+        "",
+        ""
+      ],
+      "file": "shadow-corrosion-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.This is a SPELL card, not a unit. The ONLY numeral is TOP LEFT \"1\" for its cost. TOP RIGHT must be a BLANK BROWN CORNER PANEL, BOTTOM LEFT must be a BLANK BROWN CORNER PANEL, and BOTTOM RIGHT must be a BLANK BROWN CORNER PANEL. Absolutely no zero, dash, label, icon, roman numeral or other marking in those three corners; retain the identical four-panel brown frame structure. Remove every previous border ornament of Image 1, preserving the central spell artwork and spell symbol, including its original drawn decorative INTERNAL artwork if present. Do not transplant the Shield Warrior or its lettering from Image 2."
+    },
+    {
+      "key": "necromancy",
+      "name": "亡灵复生",
+      "corners": [
+        "2",
+        "",
+        "",
+        ""
+      ],
+      "file": "necromancy-v3.png",
+      "prompt": "Edit Image 1, changing ONLY its existing ornamental outer frame and adding the requested corner numerals. Image 1 is the APPROVED ARTWORK edit target. Preserve its EXACT subject identity, facial design, pose, anatomy, armor, magical effects, scenery, drawn linework, angular color planes, palette and lighting; do NOT redesign, repaint in another style, change the pose or add props. Image 2 is ONLY the common BORDER AND NUMERAL STYLE template, not a character/background reference. Replace the entire ornate gold border from Image 1 with the EXACT simple brown card frame of Image 2: dark chocolate-brown outer band, inset bevels in muted bronze and ochre, four large flat square brown corner panels, a thin inset rectangular inner rim, and the same small inward angular notch halfway along each vertical side. Match Image 2's frame geometry, relative panel sizes, widths, inset spacing, colors and weathered painted edge texture consistently. No curled filigree, crowns, skull ornaments, scrollwork, name ribbons, crosses or additional decorations from Image 1 remain around the perimeter. Finished canvas should have Image 2's 1000:1546 portrait aspect ratio; fit the existing illustration naturally inside the new brown frame, never stretch/distort the subject, and extend only backdrop at top/bottom if necessary. Use the SAME large decorative serif numeral style as Image 2, pale muted tan-gold with fine dark outline/shadow, centered inside corner squares with generous padding. Place exactly the specified digits; do not copy Image 2's example values. Only the corner digits are text: NO title, no skill paragraph, no text panel, no stat labels, no extra text. Opaque background, a single complete card, all four corners entirely visible.This is a SPELL card, not a unit. The ONLY numeral is TOP LEFT \"2\" for its cost. TOP RIGHT must be a BLANK BROWN CORNER PANEL, BOTTOM LEFT must be a BLANK BROWN CORNER PANEL, and BOTTOM RIGHT must be a BLANK BROWN CORNER PANEL. Absolutely no zero, dash, label, icon, roman numeral or other marking in those three corners; retain the identical four-panel brown frame structure. Remove every previous border ornament of Image 1, preserving the central spell artwork and spell symbol, including its original drawn decorative INTERNAL artwork if present. Do not transplant the Shield Warrior or its lettering from Image 2."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "screen": "menu",
+      "file": "01-main-menu.png",
+      "missingImages": [],
+      "tiles": 0,
+      "baseCount": 0,
+      "deployCells": 0,
+      "handCards": 0,
+      "eventCards": 0,
+      "offCanvas": []
+    },
+    {
+      "screen": "hero",
+      "file": "02-choose-hero.png",
+      "missingImages": [],
+      "tiles": 0,
+      "baseCount": 0,
+      "deployCells": 0,
+      "handCards": 0,
+      "eventCards": 0,
+      "offCanvas": []
+    },
+    {
+      "screen": "deploy",
+      "file": "03-battle-deploy.png",
+      "missingImages": [],
+      "tiles": 35,
+      "baseCount": 2,
+      "deployCells": 8,
+      "handCards": 6,
+      "eventCards": 0,
+      "sheetFooter": 743.203125,
+      "lastAbilityBottom": 677.140625,
+      "offCanvas": []
+    },
+    {
+      "screen": "battle",
+      "file": "04-battle-attack.png",
+      "missingImages": [],
+      "tiles": 35,
+      "baseCount": 2,
+      "deployCells": 0,
+      "handCards": 6,
+      "eventCards": 0,
+      "sheetFooter": 743.203125,
+      "lastAbilityBottom": 622.75,
+      "offCanvas": []
+    },
+    {
+      "screen": "adventure",
+      "file": "05-adventure.png",
+      "missingImages": [],
+      "tiles": 0,
+      "baseCount": 0,
+      "deployCells": 0,
+      "handCards": 0,
+      "eventCards": 3,
+      "offCanvas": []
+    },
+    {
+      "screen": "notes",
+      "file": "06-design-notes.png",
+      "missingImages": [],
+      "tiles": 0,
+      "baseCount": 0,
+      "deployCells": 0,
+      "handCards": 0,
+      "eventCards": 0,
+      "offCanvas": []
+    }
+  ]
+}

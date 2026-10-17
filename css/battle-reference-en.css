@@ -1,0 +1,165 @@
+/* Match the approved battle composition without independently compressing its rows. */
+.battle-toolbar .game-wordmark { display:flex; align-items:center; gap:17px; }
+.battle-toolbar .game-wordmark svg { width:26px; height:28px; fill:none; stroke:currentColor; stroke-width:1.7; }
+.deck-back svg { width:42px; height:43px; fill:none; stroke:currentColor; stroke-width:1.7; }
+.local-resource { display:flex; align-items:center; justify-content:center; gap:7px; }
+.local-resource svg { width:19px; height:22px; flex-shrink:0; fill:none; stroke:currentColor; stroke-width:1.7; }
+.hint-icon { width:16px; height:20px; flex-shrink:0; color:#8e9e88; fill:none; stroke:currentColor; stroke-width:1.7; }
+#action-hint { flex:1; }
+.battle-menu-dropdown { position:relative; }
+.battle-menu-dropdown > summary { list-style:none; cursor:pointer; color:var(--muted); padding:8px 12px; font-size:14px; }
+.battle-menu-dropdown > summary::-webkit-details-marker { display:none; }
+.battle-menu-dropdown > summary:focus-visible { outline:3px solid #f1d49d; }
+.battle-menu-dropdown > div { position:absolute; right:0; top:100%; min-width:200px; padding:8px; background:#17241c; border:1px solid #806647; z-index:50; }
+.battle-menu-dropdown button { display:block; width:100%; text-align:left; }
+.selection-footer { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:20px; }
+.selection-live-note { color:#5d553e; font-size:11px; }
+.selection-ability + .selection-ability { margin-top:10px; }
+.selection-ability h3 { font:20px/1.3 Georgia,serif; color:#352f22; margin-bottom:4px; }
+.selection-ability p { font-size:14px; line-height:1.55; color:#514933; }
+.card-stat-value { display:inline-flex; align-items:center; gap:3px; }
+.card-stats { display:flex; justify-content:space-between; width:100%; align-self:stretch; }
+.draw-button:disabled { background:none; color:#7e8b79; }
+#game-notice.turn-reminder { position:static; transform:none; width:auto; max-width:none; background:none; border:0; padding:0; margin-top:9px; text-align:center; font-size:12px; color:#b3a78c; }
+#game-notice.turn-reminder:not(.visible) { display:block; }
+.card-stats svg,.unit-stats svg { width:12px; height:12px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linejoin:round; stroke-linecap:round; }
+.unit-attack,.unit-health { display:flex; align-items:center; gap:3px; white-space:nowrap; }
+.unit-ready-dot { width:5px; height:5px; flex:0 0 5px; border-radius:50%; background:#b4c693; }
+.unit.spent .unit-ready-dot { background:#7f7963; }
+.unit.frozen .unit-ready-dot { background:#a7d7e3; }
+.unit-art { display:block; }
+.cell { margin:0; align-self:stretch; }
+.base-icon svg { display:block; width:100%; height:100%; }
+
+@media(min-width:1000px) {
+  body[data-screen='battle'] { overflow:hidden; }
+  .game-container {
+    position:fixed; left:0; top:0; width:1600px; max-width:none; height:1000px;
+    margin:0; overflow:hidden; transform-origin:top left;
+    transform:translate(var(--battle-left,0px),var(--battle-top,0px)) scale(var(--battle-scale,1));
+    background:#15221a url('../lib/img/ui/war-table.png') center/cover no-repeat;
+  }
+  .game-container::after { content:''; position:absolute; inset:0; box-shadow:inset 0 0 110px 20px #030806a8; pointer-events:none; z-index:20; }
+  .battle-toolbar { height:82px; min-height:82px; padding:0 55px; background:#0d1512bb; }
+  .battle-toolbar .game-wordmark { display:flex; align-items:center; gap:17px; font-size:26px; letter-spacing:3px; }
+  .battle-toolbar .game-wordmark svg { width:26px; height:28px; fill:none; stroke:currentColor; stroke-width:1.7; }
+  .battle-toolbar nav { gap:20px; flex-wrap:nowrap; }
+  .battle-toolbar button { font-size:14px; padding:8px 12px; }
+  .battle-table { display:block; padding:0; }
+  .player-info { position:absolute; left:58px; top:102px; width:1172px; height:68px; min-height:68px; grid-template-rows:68px; gap:18px; }
+  .player-panel { gap:14px; }
+  .player-portrait { display:block; width:58px; height:58px; padding:0; border-color:#8b7654; clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px); }
+  .player-header h2 { font-size:23px; line-height:1.1; }
+  .player-resources { font-size:13px; margin-top:5px; }
+  .health-resource { font-size:20px; gap:8px; }
+  .health-resource strong { font-size:20px; }
+  .health-resource > span { font-size:13px; }
+  .turn-summary { font-size:15px; letter-spacing:1.6px; margin-left:28px; }
+  .phase-steps { font-size:15px; gap:11px; margin-top:9px; }
+  .board-section { position:absolute; left:58px; top:186px; width:1157px; height:544px; }
+  .game-board { width:1157px; height:544px; padding:17px; gap:6px; background:#393c32; border:2px solid #957449; outline:none; box-shadow:0 9px 22px #07100bcc,inset 0 0 0 5px #17201a,inset 0 0 0 7px #81674760; }
+  .cell { background:#2b332b; border:1px solid #665f4880; box-shadow:inset 0 2px 0 #54604b24,inset 0 0 17px #1720195c!important; }
+  .cell:nth-child(even) { background:#30372d; }
+  .cell-coordinate { left:5px; top:4px; font-size:10px; color:#adb09e5c; }
+  .cell.deployable { background:#304637; border-color:#65816a; }
+  .cell.deployable::after { content:''; width:13px; height:13px; border:1px solid #91b39699; transform:rotate(45deg); box-shadow:0 0 0 5px #99b5980d; }
+  .cell.deployable .cell-action { bottom:9px; font-size:12px; }
+  .cell.movable { border:1px solid #91b7a0; background:#2e4a3a; }
+  .cell.movable .cell-action { font-size:27px; color:#a1c4b0; }
+  .cell.attackable { background:#46302b; border:2px solid #d5927c; }
+  .cell.attackable::before { content:''; position:absolute; inset:6px; border:1px dashed #d5927c90; pointer-events:none; }
+  .cell.attackable .cell-action { top:6px; right:7px; padding:0 5px; font-size:12px; }
+  .cell.selected-cell,.cell.highlight { border:1px solid #665f4880; }
+  .cell.selected-cell .unit { border-color:#edc985; }
+  .cell.movable .cell-action.move-up,.cell.movable .cell-action.move-down { font-size:0; }
+  .cell-action.move-up::after { content:'↟'; font-size:27px; }
+  .cell-action.move-down::after { content:'↡'; font-size:27px; }
+  .board-files { position:absolute; left:18px; right:18px; bottom:-26px; height:auto; padding:0; font:12px/1.4 'Segoe UI',sans-serif; color:#9c967e; }
+  .cell.base { justify-content:center; line-height:1.1; font-weight:400; }
+  .base-icon { width:48px; height:45px; margin:0; flex-shrink:0; }
+  .base-name { font-size:10px; letter-spacing:1.2px; margin-top:-2px; }
+  .base-health { font:22px/1.1 Georgia,serif; flex-shrink:0; }
+  .unit { width:116px; height:83px; left:calc(50% - 58px); top:calc(50% - 41.5px); border:2px solid #8cad93; justify-content:flex-start; clip-path:polygon(7px 0,calc(100% - 7px) 0,100% 7px,100% 100%,0 100%,0 7px); }
+  .unit.enemy { border-color:#b77764; }
+  .unit-art { position:absolute; inset:0 0 auto; width:100%; height:56px; min-height:56px; object-fit:cover; object-position:center 24%; }
+  .unit-name { position:absolute; bottom:24px; left:0; right:0; height:15px; font-size:10px; line-height:15px; }
+  .unit-stats { position:absolute; bottom:0; height:24px; padding:0 7px; font-size:13px; background:#1b2921; }
+  .unit.enemy .unit-stats { background:#37241d; }
+  .unit-stats svg { width:13px; height:13px; }
+  .unit-state { display:none; }
+  .unit.selected { border-color:#edc985; }
+  .selection-panel { position:absolute; left:1265px; top:110px; width:285px; height:668px; padding:21px 20px 42px; overflow:hidden; box-shadow:0 6px 18px #0008,inset 0 0 0 5px #a5947370; }
+  #selection-title { font:27px/1.2 Georgia,serif; margin:0; }
+  #selection-kind { font-size:12px; line-height:1.4; letter-spacing:.4px; margin:4px 0 14px; }
+  #selection-art { width:167px; height:258px; min-height:258px; max-width:none; flex:0 0 258px; margin:0 auto 15px; filter:drop-shadow(0 3px 3px #49372140); }
+  .selection-panel:has(#selection-preview:not([hidden]):not(:empty)) #selection-art { width:138px; height:213px; min-height:213px; flex-basis:213px; margin-bottom:12px; }
+  #selection-stats { padding:8px 0 10px; margin-bottom:15px; gap:0; }
+  .selection-stat strong { font:23px/26px Georgia,serif; }
+  .selection-stat small { font-size:10px; line-height:22.4px; letter-spacing:1px; }
+  #selection-description { flex:0 1 auto; min-height:0; max-height:170px; font-size:14px; line-height:1.55; }
+  #selection-status { margin-top:15px; padding-top:12px; font-size:13px; flex-shrink:0; }
+  .selection-panel:has(#selection-preview:not([hidden]):not(:empty)) #selection-status { margin-top:12px; padding-top:10px; font-size:12px; }
+  #selection-preview { border-top:1px solid #8a795750; padding-top:10px; margin-top:10px; font-size:12px; line-height:1.6; }
+  #selection-preview small { font-size:11px; }
+  .selection-footer { position:absolute; bottom:17px; left:20px; right:20px; margin:0; font-size:12px; }
+  #view-card-art-btn { margin:0; padding:0; min-height:0; font-size:12px; }
+  .selection-live-note { font-size:12px; }
+  .selection-panel:not(:has(#selection-art:not([hidden]))) #selection-description { margin-top:20px; }
+  .selection-panel:not(:has(#selection-art:not([hidden]))) #selection-stats:empty { display:none; }
+  .battle-guidance { position:absolute; left:73px; top:756px; width:1118px; height:30px; min-height:30px; gap:9px; }
+  #action-hint { font:17px/1.4 'Segoe UI',sans-serif; color:#e2d4b8; }
+  #cancel-selection-btn { font-size:13px; }
+  .action-area { position:absolute; left:1265px; top:795px; width:285px; }
+  .controls { gap:9px; }
+  .controls button { margin:0; }
+  .controls .primary { height:68px; min-height:68px; font:24px Georgia,serif; letter-spacing:.3px; }
+  .controls .primary::after { content:' ›'; margin-left:10px; }
+  #end-turn-btn:not(.primary) { margin-top:2px; font-size:13px; }
+  #game-notice { margin-top:9px; text-align:center; font-size:12px; color:#b3a78c; }
+  .hand-section { position:absolute; left:52px; top:788px; width:1188px; height:197px; gap:21px; align-items:flex-start; }
+  .draw-stack { width:104px; flex:0 0 104px; padding:23px 0 0; }
+  .local-resource { height:29px; line-height:29px; font-size:20px; margin-bottom:10px; }
+  .local-resource strong { font-size:25px; font-weight:600; }
+  .local-resource small { font-size:13px; margin-left:0; }
+  .deck-back { width:72px; height:89px; margin-bottom:9px; font-size:42px; }
+  .draw-button { font-size:15px; padding:3px; min-height:0; }
+  .button-cost { font-size:12px; }
+  .hand-heading { height:18px; min-height:18px; padding-left:11px; gap:8px; }
+  #hand-title,#hand-hint { font-size:12px; }
+  #hand-hint { display:block; }
+  .hand { gap:11px; padding:0 0 7px; overflow:visible; align-items:flex-end; }
+  .card { width:142px; flex:0 0 142px; height:179px; overflow:visible; border:1px solid #8d744d; background:#352c21; justify-content:flex-start; align-items:stretch; }
+  .card-art { height:118px; overflow:hidden; }
+  .card-art img { object-position:center 23%; }
+  .card-cost { top:6px; left:6px; width:29px; height:29px; font:20px/27px Georgia,serif; }
+  .card-name { padding:7px 8px 2px; font:15px/1.2 Georgia,serif; }
+  .card-stats { padding:2px 8px 5px; font-size:11px; }
+  .card-stats svg { width:11px; height:11px; }
+  .card:nth-child(1) { transform:rotate(-1.2deg); }
+  .card:nth-child(5) { transform:rotate(1deg); }
+  .card:nth-child(6) { transform:rotate(1.8deg); }
+  .card:hover:not(:disabled) { transform:translateY(-9px); }
+  .card.selected { transform:translateY(-16px); outline:2px solid #dfbd83; outline-offset:2px; border-width:1px; }
+  .utility-details { display:none; }
+  #debug-tools[open] { display:block; position:absolute; z-index:40; top:95px; left:58px; width:1157px; max-height:850px; overflow:auto; margin:0; padding:20px; background:#17241c; border:1px solid #957449; }
+  #multiplayer-panel:not([style*='display: none']):not([style*='display:none']) { display:block; position:absolute; z-index:40; left:58px; bottom:20px; width:1157px; background:#17241c; padding:10px; }
+}
+
+@media(max-width:999px) {
+  .unit-name { flex-shrink:0; }
+  .unit-art { position:absolute; inset:0; height:calc(100% - 20px); }
+  .unit-name { position:absolute; bottom:20px; left:0; right:0; }
+  .unit-stats { position:absolute; bottom:0; }
+  .selection-footer { flex-wrap:wrap; }
+}
+@media(max-width:440px) {
+  .battle-toolbar .game-wordmark { gap:7px; }
+  .battle-toolbar .game-wordmark svg { width:18px; height:20px; }
+  .deck-back svg { width:29px; height:30px; }
+  .local-resource { gap:3px; }
+  .local-resource svg { width:12px; height:16px; }
+  .unit-attack,.unit-health { font-size:9px; gap:1px; }
+  .unit-attack::after,.unit-health::after { content:none; }
+  .unit-stats svg { width:8px; height:8px; }
+  .unit-ready-dot { display:none; }
+}

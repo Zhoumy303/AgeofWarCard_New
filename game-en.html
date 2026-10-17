@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#15221a">
+    <title>Age of War · Tactical Cards</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/player-ui-en.css?v=20261011b">
+    <link rel="stylesheet" href="css/adventure-table-en.css?v=20261011">
+    <link rel="stylesheet" href="css/battle-reference-en.css?v=20261011b">
+    <link rel="stylesheet" href="css/bilingual-en.css?v=20261011c">
+    <script src="js/en/storage.js"></script>
+    <script src="js/en/SaveSystem.js?v=20261002"></script>
+    <script src="js/en/save-manager.js?v=20261002" defer></script>
+</head>
+<body>
+    <div class="language-switcher" aria-label="Language / 语言" data-i18n-skip><button id="language-zh" data-language-choice="zh" type="button" aria-pressed="false">中文</button><button id="language-en" data-language-choice="en" type="button" aria-pressed="true">English</button></div>
+    <main id="main-menu" class="screen main-menu">
+      <div class="menu-layout">
+        <section class="menu-copy">
+          <div class="menu-ornament" aria-hidden="true">⚔︎</div>
+          <h1 class="game-title">AGE<span><em>of</em>WAR</span></h1>
+          <div class="menu-actions">
+            <button id="btn-experience" class="menu-choice"><span>Quick Match</span></button>
+            <button id="btn-start-story" class="menu-choice"><span>New Adventure</span></button>
+            <button id="btn-continue" class="menu-choice continue-choice"><span>Continue Adventure</span></button>
+            <small id="continue-hero-summary"></small>
+          </div>
+          <p class="menu-note">HUMAN · SHADOW · BEAST</p>
+        </section>
+      </div>
+      <footer class="menu-footer"><button id="menu-help-btn" class="quiet-button">How to play</button></footer>
+    </main>
+
+    <section id="story-select-panel" class="screen character-screen" style="display:none;" aria-label="Choose an adventure hero">
+      <header class="screen-heading"><span class="game-wordmark">⚔︎ &nbsp; AGE OF WAR</span><button id="btn-exit-story" class="quiet-button">Back to menu</button></header>
+      <div class="character-layout">
+        <div class="character-carousel">
+          <button id="btn-prev-character" class="arrow-button" aria-label="Previous hero">←</button>
+          <img id="character-portrait" src="lib/img/player/fortress_guardian.webp" alt="Fortress Guardian">
+          <button id="btn-next-character" class="arrow-button" aria-label="Next hero">→</button>
+        </div>
+        <div id="character-info">
+          <h2 id="character-job">Fortress Guardian</h2>
+          <div id="character-desc">Starting deck: Shield Warriors, Swordsmen and a Healing Kit.</div>
+          <div id="hero-tabs" aria-label="Choose a hero"></div>
+          <section id="starting-deck" aria-label="Starting deck"></section>
+          <button id="btn-story-start" class="primary">Begin adventure →</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="battle-preview-root" class="screen adventure-screen" style="display:none;" aria-label="Adventure events">
+      <header class="screen-heading"><span class="game-wordmark">⚔︎ &nbsp; AGE OF WAR</span><button id="btn-back-main" class="quiet-button">Menu</button></header>
+      <div class="adventure-layout">
+          <div class="adventure-role">
+            <img id="preview-role-img" src="lib/img/player/fortress_guardian.webp" alt="Current adventure hero">
+            <div class="adventure-role-info"><h2 id="preview-hero-name">Fortress Guardian</h2><div class="journey-progress"><strong id="preview-level">Lv.1</strong><div class="experience-bar"><div id="preview-exp-bar"></div><span id="preview-exp-label">0/2</span></div></div></div>
+            <div class="adventure-resources"><span id="preview-hp">♥ 6/6</span><span id="preview-ap">◇ AP cap 6</span><span id="preview-gold">Gold 0</span></div>
+            <button id="btn-open-card-list" class="quiet-button">Deck &amp; items</button>
+          </div>
+        <section class="adventure-events"><div class="section-heading"><h1>Choose your next event</h1><span id="preview-deck-count">Events remaining: 23</span></div><div id="preview-event-cards"></div></section>
+          <section class="event-detail">
+            <div id="preview-card-img" role="img" aria-label="Selected event illustration"></div>
+            <div><h2 id="preview-card-name">Event</h2><p id="preview-card-desc">Select an event to see its details.</p></div>
+            <button id="preview-card-action" class="primary">Set out</button>
+          </section>
+        <p class="journey-save">Progress saved after each completed event</p>
+      </div>
+      <div id="preview-card-list-modal" class="modal" style="display:none;" role="dialog" aria-modal="true" aria-label="Your deck & items"><div class="modal-content card-list-dialog"><div class="section-heading"><h2>Your deck & items</h2><button id="btn-close-card-list" class="quiet-button">Close</button></div><div id="preview-card-list-content"></div></div></div>
+    </section>
+
+    <section id="level-select-panel" class="screen boss-screen" style="display:none;" aria-label="Choose a boss challenge">
+      <header class="screen-heading"><div><span class="eyebrow">Boss Challenge</span><h1>Choose your opponent</h1><p>Review the boss abilities before you begin.</p></div><button id="close-boss-panel" class="quiet-button">Back to battle</button></header>
+      <div id="boss-list"></div><div id="boss-info"></div><button id="start-boss-battle" class="primary" disabled>Start challenge</button>
+    </section>
+
+    <main class="game-container">
+      <header id="battle-toolbar" class="battle-toolbar">
+        <span class="game-wordmark"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3l10 14M15 3L5 17M3 2l5 1-4 4M17 2l-5 1 4 4M7 13l-3 4M13 13l3 4"/></svg>AGE OF WAR</span>
+        <nav aria-label="Game menu"><details class="battle-menu-dropdown"><summary>Menu</summary><div><button id="battle-menu-btn" class="quiet-button">Main menu</button><button id="open-boss-panel" class="quiet-button">Boss Challenge</button><button id="open-story-panel" class="quiet-button">Adventure</button><button id="battle-tools-btn" class="quiet-button">Developer tools</button></div></details><button id="help-btn" class="quiet-button">Rules</button></nav>
+      </header>
+
+      <div class="battle-table">
+        <div class="player-info">
+          <section class="player-panel friendly" id="player1-panel" aria-label="Your status">
+            <img id="player1-portrait" class="player-portrait" src="lib/img/player/fortress_guardian.webp" alt="">
+            <div class="player-summary"><div class="player-header"><h2>You</h2><span class="player-trait" id="player1-trait"></span></div>
+              <div class="player-resources"><span class="health-resource">♡ <strong id="player1-health">7</strong><span>/ <span id="player1-health-max">7</span> Base HP</span><span class="health-bar"><span class="health-fill" id="player1-health-fill"></span></span></span><span class="hand-resource">Hand <strong id="player1-hand-count">0</strong>/7</span></div>
+              <div class="legacy-resource" aria-hidden="true">AP <span id="player1-action-points">2</span> Gold <span id="player1-gold">0</span> Deck <span id="player-deck-count">0</span></div>
+            </div>
+          </section>
+          <section class="turn-summary" aria-label="Current turn"><div><span id="round-label">Round 1</span> · <strong id="turn-label">Your turn</strong></div><div class="phase-steps"><span id="phase-deploy">Deploy</span><span aria-hidden="true">›</span><span id="phase-battle">Battle</span></div><span class="phase-indicator sr-only" id="phase-indicator">Deployment</span></section>
+          <section class="player-panel enemy" id="player2-panel" aria-label="Opponent status">
+            <img id="player2-portrait" class="player-portrait" src="lib/img/enemies/shadow_hunters.webp" alt="">
+            <div class="player-summary"><div class="player-header"><h2>Computer</h2><span class="player-trait" id="player2-trait"></span></div>
+              <div class="player-resources"><span class="health-resource">♡ <strong id="player2-health">7</strong><span>/ <span id="player2-health-max">7</span> Base HP</span><span class="health-bar"><span class="health-fill" id="player2-health-fill"></span></span></span><span class="hand-resource"><strong id="player2-hand-count">0</strong> cards in hand</span></div>
+              <div class="legacy-resource" aria-hidden="true">AP <span id="player2-action-points">2</span> Gold <span id="player2-gold">0</span> Deck <span id="opponent-deck-count">0</span></div>
+            </div>
+          </section>
+        </div>
+        <div class="battlefield-layout">
+          <section class="board-section" aria-label="Battlefield"><div class="board-labels"><span>← Your base</span><span>Destroy the enemy base to win</span><span>Enemy base →</span></div><div class="game-board" id="game-board" aria-label="Battlefield: 5 rows by 7 columns"></div><div class="board-files" aria-hidden="true"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span></div><div class="board-legend"><span><i class="legend-friendly"></i>Move / Deploy</span><span><i class="legend-enemy"></i>Attack</span><span><i class="legend-selected"></i>Selected</span></div></section>
+          <aside id="selection-panel" class="selection-panel" aria-label="Tactical details"><span class="eyebrow">TACTICAL DETAILS</span><h2 id="selection-title">Start with your hand</h2><p id="selection-kind"></p><img id="selection-art" alt="" hidden><div id="selection-stats"></div><div id="selection-description">Select a card to see its cost and abilities, then choose a highlighted square to deploy. Select a unit on the board to inspect it.</div><p id="selection-status"></p><div id="selection-preview" aria-live="polite"></div></aside>
+        </div>
+        <div class="battle-guidance"><svg class="hint-icon" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="2" width="12" height="16" rx="5"/><path d="M10 2v6M4 8h12"/></svg><p id="action-hint" role="status" aria-live="polite">Draw a card, then select a unit to deploy in your starting area.</p><button id="cancel-selection-btn" class="quiet-button" style="display:none;">Cancel · Esc</button></div>
+        <section class="hand-section" aria-label="Your hand">
+          <div class="draw-stack"><div class="local-resource"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1l6 9-6 9-6-9zM10 1v18M4 10h12"/></svg><strong id="local-ap">2</strong><small>/ <span id="local-ap-cap">6</span> AP</small></div><div class="deck-back" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M5 3l10 14M15 3L5 17M3 2l5 1-4 4M17 2l-5 1 4 4M7 13l-3 4M13 13l3 4"/></svg><span id="local-deck-count">0</span></div><button id="draw-card-btn" class="draw-button">Draw <span class="button-cost">· <span id="draw-cost">1</span> AP</span></button></div>
+          <div class="hand-content"><div class="hand-heading"><h2 id="hand-title">Your hand</h2><span id="hand-hint">Select a card to inspect its abilities.</span><span id="opponent-hand-summary">Opponent: 0 cards</span></div><div class="hand" id="player1-hand"></div><div class="hand" id="player2-hand" style="display:none;"></div></div>
+        </section>
+        <section class="action-area" aria-label="Turn actions"><div class="controls"><button id="skill-btn">Use skill</button><button id="use-spell-btn" style="display:none;">Cast spell</button><button id="use-hourglass-btn" style="display:none;" onclick="useTimeHourglass()">Use Time Hourglass</button><button id="enter-battle-btn" class="primary">Start battle →</button><button id="end-turn-btn" class="primary">End turn →</button></div><p id="game-notice" role="status" aria-live="polite"></p></section>
+      </div>
+
+      <details id="debug-tools" class="utility-details"><summary>Developer & simulation tools</summary><div class="debug-toggle-row"><span>AI control</span><button class="ai-toggle-btn" id="ai-toggle-1" onclick="toggleAI(1)">Player 1 · AI</button><button class="ai-toggle-btn" id="ai-toggle-2" onclick="toggleAI(2)">Player 2 · AI</button><button id="auto-play-btn">Start autoplay</button><button id="stop-auto-play-btn" style="display:none;">Stop autoplay</button></div>
+        <div class="ai-learning-controls">
+            <h3>AI strategy & match statistics</h3>
+            <div class="ai-stats">
+                <span>Games:  <span id="ai-games-played">0</span></span>
+                <span>AI win rate:  <span id="ai-win-rate">0%</span></span>
+            </div>
+            <div class="ai-weights">
+                <h4>Strategy weights</h4>
+                <div class="weight-grid">
+                    <div class="weight-item">
+                        <span>Attack priority:</span>
+                        <span id="weight-attack-priority">2.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Advance:</span>
+                        <span id="weight-move-towards-enemy">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Protect wounded:</span>
+                        <span id="weight-protect-low-health">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Aggressive deployment:</span>
+                        <span id="weight-aggressive-placement">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Defensive deployment:</span>
+                        <span id="weight-defensive-placement">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Spell use:</span>
+                        <span id="weight-spell-usage">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Skill use:</span>
+                        <span id="weight-skill-usage">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Rage skill:</span>
+                        <span id="weight-rage-skill">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Shadow Shift:</span>
+                        <span id="weight-shadow-move-skill">1.000</span>
+                    </div>
+                    <div class="weight-item">
+                        <span>Erosion skill:</span>
+                        <span id="weight-erosion-skill">1.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ai-buttons">
+                <button onclick="exportAILearningData()">Export AI data</button>
+                <button onclick="importAILearningData()">Import AI data</button>
+                <button onclick="resetAILearningData()">Reset AI data</button>
+                <button onclick="showAILearningStats()">View AI statistics</button>
+                <button onclick="window.saveManager.show()" style="background:#4af;color:#fff;">Save manager</button>
+            </div>
+            <div class="parallel-training">
+                <h4>Simplified simulations (separate from match statistics)</h4>
+                <p>Simulates basic movement and attacks only. Spells, skills and boss rules are excluded. Results do not count toward match statistics or balance evaluations.</p>
+                <div class="training-controls">
+                    <label>Parallel games:  <input type="number" id="parallel-games" value="4" min="1" max="10"></label>
+                            <button onclick="startParallelTraining()" id="start-parallel-btn">Start simulation</button>
+        <button onclick="stopParallelTraining()" id="stop-parallel-btn" style="display: none;">Stop simulation</button>
+                </div>
+                <div class="training-status">
+                    <span>Active games:  <span id="active-games">0</span></span>
+                    <span>Simulation speed:  <span id="games-per-second">0</span> games/sec</span>
+                    <span>Simulations:  <span id="total-training-games">0</span></span>
+                    <span>Turn-limit draws:  <span id="current-generation">0</span></span>
+                </div>
+            </div>
+        </div>
+      </details>
+      <details id="multiplayer-panel" class="utility-details" style="display:none;"><summary>Multiplayer connection & chat</summary><div class="connection-info">Connection: <span id="connection-status">Disconnected</span> · Room: <span id="room-id"></span> · Player: <span id="player-id"></span></div><div class="chat-container"><div id="chat-messages" role="log" aria-label="Chat history"></div><label class="sr-only" for="chat-input">Chat message</label><input type="text" id="chat-input" placeholder="Type a message…"><button onclick="sendChat()">Send</button></div></details>
+    </main>
+
+    <div class="modal" id="help-modal" role="dialog" aria-modal="true" aria-labelledby="help-title" style="display:none;"><div class="modal-content help-dialog"><div class="section-heading"><h2 id="help-title">Your first match in three steps</h2><button id="close-help-btn" class="quiet-button" aria-label="Close help">Close</button></div><p class="help-goal">Your goal: reduce the enemy base to 0 HP.</p><ol class="help-steps"><li><strong>Draw & deploy</strong><p>Drawing and playing cards both cost Action Points (AP). Select a card, then a highlighted square to deploy it. For spells, follow the targeting prompt.</p></li><li><strong>Start battle</strong><p>When you are ready, choose Start battle. Select a friendly unit: green squares are legal moves, red squares are attack targets.</p></li><li><strong>End turn</strong><p>Most units can move OR attack once per turn. Assassins can attack after moving. End your turn when you are done, then let the AI act.</p></li></ol><div class="help-notes"><p><strong>Cost</strong>: your first two paid draws each cost 1 AP; later draws cost 2 AP. You can hold up to 7 cards.</p><p><strong>Cards & units</strong>: ATK is attack, HP is health, RNG is range, and AP is action points. Select a card to read its full abilities.</p><p><strong>Cancel</strong>: choose Cancel or press Esc. A disabled button means its requirements are not met.</p></div></div></div>
+    <div class="modal" id="winner-modal" role="dialog" aria-modal="true" aria-labelledby="winner-text"><div class="modal-content"><span class="eyebrow">MATCH COMPLETE</span><h2 id="winner-text">Victory!</h2><button id="restart-btn" class="primary">Play again</button></div></div>
+    <div class="modal" id="discard-modal" role="dialog" aria-modal="true" aria-labelledby="discard-title"><div class="modal-content"><h2 id="discard-title">Hand full</h2><p>You can hold up to 7 cards. Choose one to discard.</p><div id="discard-options"></div></div></div>
+    <div class="tooltip" id="tooltip" style="display:none;"></div>
+    <script src="js/en/units.js?v=20261002"></script>
+    <script src="js/en/player.js"></script>
+    <script src="js/en/multiplayer.js?v=20261002"></script>
+    <script src="js/en/ui-manager.js?v=20261002"></script>
+
+    <script src="js/en/game.js?v=20261011b"></script>
+    <script src="js/en/adventure.js"></script>
+
+    <script src="js/en/player-experience.js?v=20261011c"></script>
+    <script src="js/en/battle-layout.js?v=20261011b"></script>
+    <script src="js/en/i18n-ui-zh.js?v=20261011c"></script>
+    <script src="js/en/i18n-cards-zh.js?v=20261011c"></script>
+    <script src="js/en/i18n-adventure-zh.js?v=20261011c"></script>
+    <script src="js/en/i18n.js?v=20261011c"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* Adventure views use the same cloth, copper and printed cards as the battle table. */
+.character-screen { flex-direction: column; align-items: stretch; justify-content: flex-start; }
+.character-screen .screen-heading { flex-shrink: 0; }
+.character-layout { display: grid; align-items: center; width: min(1390px, 100%); min-height: calc(100dvh - 135px); margin: 0 auto; grid-template-columns: 1.15fr 1fr; gap: clamp(40px, 5vw, 85px); }
+.character-carousel { display: flex; align-items: center; justify-content: center; position: relative; gap: 12px; }
+.character-carousel .arrow-button { width: 38px; min-height: 44px; height: 44px; border: 0; background: transparent; color: var(--muted); font-size: 24px; }
+.character-carousel .arrow-button:hover { color: var(--text); background: transparent; }
+#character-portrait { width: calc(100% - 100px); height: min(730px, 76vh); object-fit: contain; border: 0; border-radius: 0; filter: drop-shadow(0 16px 20px #0007); }
+#character-info { min-width: 0; background: transparent; border: 0; border-radius: 0; padding: 0; }
+#character-job { font: 400 clamp(31px, 3.1vw, 49px)/1.15 Georgia, "Times New Roman", serif; color: #e5d3af; margin: 0 0 8px; }
+#character-desc { min-height: 0; color: var(--muted); font-size: 17px; line-height: 1.5; margin: 0 0 26px; }
+#hero-tabs { display: flex; gap: 17px; margin: 0 0 33px; }
+.hero-tab { width: 88px; height: 88px; padding: 5px; position: relative; background: #1b241c; border: 1px solid #776849; border-radius: 0; }
+.hero-tab img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero-tab span { position: absolute; top: 94px; left: 0; right: 0; text-align: center; font-size: 12px; color: #aa9e81; white-space: nowrap; }
+.hero-tab.selected { border-color: #e4bd78; outline: 1px solid #a28550; outline-offset: 3px; }
+.hero-tab.selected span { color: #e4c895; }
+#starting-deck { margin-top: 42px; padding-top: 23px; border-top: 1px solid #8d744d70; }
+#starting-deck h3 { font: 400 22px Georgia, "Times New Roman", serif; color: #d9c6a2; margin: 0 0 20px; }
+#starting-deck h3 small { font: 13px "Segoe UI", sans-serif; color: #a2987d; margin-left: 15px; }
+.starter-cards { display: flex; gap: 12px; align-items: flex-start; }
+.starter-card { flex: 1; max-width: 91px; min-width: 0; text-align: center; }
+.starter-card img { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 1546; object-fit: contain; box-shadow: 0 4px 8px #0006; }
+.starter-card span { display: block; color: #c1b497; font-size: 11px; line-height: 1.35; margin-top: 8px; }
+#btn-story-start { width: 100%; margin-top: 32px; font-size: 23px; }
+
+.adventure-layout { display: block; width: min(1450px, 100%); margin: 0 auto; }
+.adventure-role { display: flex; flex-direction: row; align-items: center; gap: 17px; margin: 28px 0 0; padding: 0; border: 0; border-radius: 0; background: transparent; }
+#preview-role-img { width: 66px; height: 66px; object-fit: cover; border: 1px solid #8a6f4e; border-radius: 0; }
+.adventure-role-info { flex: 0 1 260px; min-width: 170px; }
+#preview-hero-name { font: 400 24px/1.25 Georgia, "Times New Roman", serif; color: #e5d3af; margin: 0 0 5px; }
+.journey-progress { display: flex; align-items: center; gap: 12px; color: #b4a68b; font-size: 12px; }
+#preview-level { font-weight: 400; white-space: nowrap; }
+.experience-bar { position: relative; height: 17px; width: 130px; background: #213027; border: 1px solid #5a654e; border-radius: 0; overflow: hidden; }
+#preview-exp-bar { height: 100%; background: #637958; border-radius: 0; }
+#preview-exp-label { position: absolute; inset: 0; text-align: center; color: #e5dbbf; font-size: 11px; line-height: 15px; }
+.adventure-resources { display: flex; gap: clamp(20px, 2vw, 34px); align-items: center; margin: 0 0 0 25px; font-size: 17px; color: #d7c9a7; }
+.adventure-resources span { display: block; white-space: nowrap; background: transparent; padding: 0; border: 0; }
+#preview-hp { color: #a4c1aa; }
+#btn-open-card-list { margin-left: auto; font-size: 14px; }
+.adventure-events { min-width: 0; padding: 0; border: 0; background: transparent; }
+.adventure-events .section-heading { flex-direction: column; align-items: center; justify-content: center; gap: 8px; margin: 38px 0 48px; text-align: center; }
+.adventure-events .section-heading h1 { font: 400 clamp(28px, 3vw, 45px)/1.2 Georgia, "Times New Roman", serif; color: #e4d3b0; }
+#preview-deck-count { font-size: 14px; color: #a59d84; }
+#preview-event-cards { display: flex; flex-wrap: nowrap; align-items: center; justify-content: center; gap: 37px; padding: 0; min-height: 0; }
+.event-card-preview { display: block; position: relative; width: 330px; height: 428px; flex: 0 1 330px; min-width: 0; padding: 9px; border: 1px solid #82694c; border-radius: 0; background: #211e16; box-shadow: 0 12px 24px #020806b3; text-align: left; transition: transform .18s, border-color .18s; }
+.event-card-preview:first-child { transform: rotate(-2deg); }
+.event-card-preview:last-child { transform: rotate(2deg); }
+.event-card-preview.selected { transform: translateY(-12px); border-color: #e0ba75; outline: 1px solid #b78f50; outline-offset: 5px; background: #211e16; }
+.event-card-preview:hover:not(:disabled) { border-color: #d9b77a; background: #211e16; }
+.event-card-preview img { display: block; width: 100%; height: 318px; margin: 0; object-fit: cover; border-radius: 0; }
+.event-card-preview .event-type { position: absolute; top: 22px; left: 21px; padding: 5px 11px; color: #dfcda7; border: 1px solid #8a765149; background: #1d231bdf; font-size: 12px; }
+.event-card-preview h2 { font: 400 23px/1.25 Georgia, "Times New Roman", serif; color: #e5d2a9; margin: 14px 9px 0; }
+.event-card-preview p { font-size: 12px; color: #a79878; margin: 5px 9px 0; }
+.event-detail { width: min(1060px, 100%); display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 32px; margin: 38px auto 0; padding: 24px 0; border: 0; border-top: 1px solid #8f744d70; border-bottom: 1px solid #8f744d40; border-radius: 0; background: transparent; }
+#preview-card-img { display: none; }
+.event-detail > div { min-width: 0; }
+#preview-card-name { font: 400 27px Georgia, "Times New Roman", serif; color: #d8c59e; margin: 0 0 5px; }
+#preview-card-desc { color: #bcb399; font-size: 15px; line-height: 1.6; max-width: 620px; margin: 0; }
+#preview-card-action { min-width: 204px; width: auto; flex-shrink: 0; margin: 0; font-size: 21px; }
+.journey-save { margin: 29px 0 0; text-align: center; font-size: 12px; color: #87927d; }
+
+/* Existing event dialogs keep their rewards and callbacks, with one visual treatment. */
+.adventure-modal { padding: 24px; background: #030805e8 !important; overflow-y: auto; color: #eadfc5; }
+.adventure-modal > div, #preview-card-list-modal .card-list-dialog { padding: 32px 38px !important; min-width: 0 !important; width: fit-content; max-width: min(1000px, calc(100vw - 48px)) !important; max-height: calc(100dvh - 48px); overflow-y: auto; background: #1b281f !important; border: 1px solid #a38455; border-radius: 0 !important; box-shadow: 0 12px 48px #000b !important; }
+.adventure-modal > div > div { color: #bcb399 !important; }
+.adventure-modal > div > div:first-child { font: 400 30px Georgia, "Times New Roman", serif !important; color: #e4d0a6 !important; margin-bottom: 20px !important; }
+.adventure-modal img { border-radius: 0 !important; background: #17201a !important; object-fit: contain !important; }
+.adventure-modal > div > img { width: 160px !important; height: auto !important; max-height: 247px; }
+.adventure-modal button { padding: 11px 24px !important; min-height: 44px; background: #d2aa69 !important; color: #211c12 !important; border: 1px solid #e8c88d !important; border-radius: 0 !important; font-size: 16px !important; margin-top: 8px; }
+.adventure-modal button:hover:not(:disabled) { background: #e2bd7c !important; }
+.adventure-modal button:is([id*="close"], [id*="decline"], [id*="exit"], [id*="leave"]) { background: transparent !important; color: #c8bda4 !important; border-color: #6f644b !important; }
+.adventure-modal button:disabled { background: #303b2e !important; border-color: #647055 !important; color: #8e957e !important; }
+#preview-card-list-content, .adventure-modal :is(#shop-items, #quartermaster-items, #tavern-cards) { display: flex; flex-wrap: wrap; gap: 22px !important; justify-content: center; align-items: flex-start; }
+.adventure-card { width: 128px; text-align: center; flex: 0 0 128px; color: #d7c9a7; }
+.adventure-card img { width: 128px !important; height: 198px !important; object-fit: contain !important; border-radius: 0 !important; background: transparent !important; }
+.adventure-card > div { color: #aa9d7f !important; font-size: 12px !important; }
+.adventure-card > div:first-of-type { color: #e3d0a8 !important; font: 400 16px/1.25 Georgia, "Times New Roman", serif !important; margin-top: 9px !important; }
+.adventure-card > div:last-of-type { color: #ceaf74 !important; }
+.adventure-modal :is(#shop-items, #quartermaster-items) .adventure-card { cursor: pointer; padding-bottom: 8px; }
+.adventure-modal :is(#shop-items, #quartermaster-items) .adventure-card:hover { outline: 1px solid #b69760; outline-offset: 6px; }
+#preview-card-list-content > div:not(.adventure-card) { color: #cbb78e !important; font-size: 16px !important; }
+
+@media (max-height: 850px) and (min-width: 1001px) {
+  #character-portrait { height: min(630px, 74vh); }
+  #character-info { padding: 25px 0; }
+  .adventure-role { margin-top: 19px; }
+  .adventure-events .section-heading { margin: 26px 0 33px; }
+  .event-card-preview { height: 350px; }
+  .event-card-preview img { height: 243px; }
+  .event-detail { margin-top: 28px; padding: 20px 0; }
+  .journey-save { margin-top: 20px; }
+}
+@media (max-width: 1000px) {
+  .character-layout { grid-template-columns: .9fr 1fr; gap: 22px; }
+  .character-carousel .arrow-button { width: 30px; }
+  #character-portrait { width: calc(100% - 70px); }
+  #hero-tabs { gap: 12px; }
+  .hero-tab { width: 73px; height: 73px; }
+  .hero-tab span { top: 79px; font-size: 11px; }
+  .starter-cards { gap: 7px; }
+  .starter-card span { font-size: 10px; }
+  .adventure-role { flex-wrap: wrap; gap: 12px; }
+  .adventure-role-info { flex: 1; }
+  .adventure-resources { margin: 0; gap: 22px; }
+  #btn-open-card-list { margin-left: 0; }
+  #preview-event-cards { gap: 23px; }
+  .event-card-preview { height: auto; padding: 7px; }
+  .event-card-preview img { height: 230px; }
+  .event-card-preview h2 { font-size: 20px; margin: 12px 5px 0; }
+  .event-card-preview p { margin: 5px 5px 13px; }
+}
+@media (max-width: 650px) {
+  .character-layout { grid-template-columns: 1fr; gap: 10px; min-height: 0; }
+  .character-carousel { order: 2; margin: 22px auto 0; width: min(370px, 100%); }
+  #character-portrait { height: 300px; }
+  #character-info { padding-top: 20px; }
+  #character-job { font-size: 32px; }
+  #character-desc { font-size: 14px; margin-bottom: 19px; }
+  #starting-deck { margin-top: 38px; padding-top: 17px; }
+  #btn-story-start { margin-top: 23px; }
+  .adventure-role { margin-top: 22px; }
+  #preview-role-img { width: 52px; height: 52px; }
+  #preview-hero-name { font-size: 21px; }
+  .adventure-resources { width: 100%; font-size: 14px; gap: 20px; }
+  #btn-open-card-list { position: absolute; top: 152px; right: 4.5vw; font-size: 12px; padding: 5px 0; }
+  .adventure-events .section-heading { margin: 38px 0 27px; }
+  .adventure-events .section-heading h1 { font-size: 28px; }
+  #preview-deck-count { font-size: 12px; }
+  #preview-event-cards { gap: 12px; align-items: stretch; }
+  .event-card-preview { padding: 4px; }
+  .event-card-preview:first-child, .event-card-preview:last-child { transform: none; }
+  .event-card-preview.selected { transform: translateY(-7px); outline-offset: 3px; }
+  .event-card-preview img { height: 143px; }
+  .event-card-preview .event-type { top: 9px; left: 7px; font-size: 9px; padding: 2px 4px; }
+  .event-card-preview h2 { font-size: 15px; margin: 8px 4px 8px; }
+  .event-card-preview p { display: none; }
+  .event-detail { flex-direction: column; align-items: stretch; gap: 18px; margin-top: 24px; padding: 20px 0; }
+  #preview-card-name { font-size: 25px; }
+  #preview-card-desc { font-size: 14px; }
+  #preview-card-action { width: 100%; }
+  .adventure-modal { padding: 14px; }
+  .adventure-modal > div, #preview-card-list-modal .card-list-dialog { padding: 25px 18px !important; max-width: calc(100vw - 28px) !important; }
+  .adventure-card { width: 105px; flex-basis: 105px; }
+  .adventure-card img { width: 105px !important; height: 163px !important; }
+  .adventure-modal button { padding: 11px 16px !important; margin: 7px !important; }
+}
